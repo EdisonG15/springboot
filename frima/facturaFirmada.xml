@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>1</ambiente> <!-- 1 = PRUEBAS -->
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MEGADATOS SA</razonSocial>
+    <nombreComercial>ECUANET</nombreComercial>
+    <ruc>1791287541001</ruc>
+    <claveAcceso>0106202501179128754100120980120010671702183025114</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>098</estab>
+    <ptoEmi>012</ptoEmi>
+    <secuencial>001067170</secuencial>
+    <dirMatriz>NUNEZ DE VELA E313 Y ATAHUALPA EDIFICIO TORRE DEL PUENTE 2DO PISO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>01/06/2025</fechaEmision>
+    <dirEstablecimiento>AV RODRIGO DE CHAVEZ PARQUE EMPRESARIAL COLON EDIF COLONCORP TORRE 6 LOCALES COMERCIALES 4 Y 5</dirEstablecimiento>
+    <contribuyenteEspecial>0176</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>EDISON GABRIEL GAROFALO BUSTAMANTE</razonSocialComprador>
+    <identificacionComprador>0804610814</identificacionComprador>
+    <totalSinImpuestos>17.99</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>17.99</baseImponible>
+        <valor>2.70</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>20.69</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>20.69</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>HO31NANA</codigoPrincipal>
+      <descripcion>CONSUMO DEL 01 JUNIO 2025 AL 30 JUNIO 2025, ECU-PLAN FIBRA 50MBPS NA.NA FECHA DE ACTIVACION 12-MAY-25</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>17.99</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>17.99</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>17.99</baseImponible>
+          <valor>2.70</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="EMAILCLIENTE">GAROFALOEDISON8@GMAIL.COM</campoAdicional>
+    <campoAdicional nombre="DIRCLIENTE">CALLE A Y CALLE C</campoAdicional>
+    <campoAdicional nombre="TELFCLIENTE">0959188170;0959188170;0992335080;0992335080</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>hKTBE357jvEmEiwaBL9KuCCSxGo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+HpLwfdaVAyNeFfY23hF/c0VZdHUOe+Cq3QfeJyzidim5CYOLjhdNZ0SUjtfDWxSCfNk6wsgm5k4C
+SsBsc68Nov2BTweE8KaM8i7jjGcK3aGj4IJP2DGx+BZmzIXqRAienW59u3sdNDWy9Ta/8dSlWHJa
+HtVMbQPQ2fyhj8PgfmS55yBFkZ54+Vf6Arr0inXDrq49fAT8sPxTQSBiEzZHCoGccxlkr/5nGolB
+1ijc7+qdnTK5f1d0x9xl/IxNjzcV4r9BMsJMWrbZWdHg8kwJvxHUOXKDg5upQ8b7N9lvwU81dL8c
++NRGbIp7MUnjOHZJ95o9wmFzvH9yHXXAZzMPtg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJWzCCB0OgAwIBAgIINDyamaivM/4wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI0MDgwNzIwMzcwMFoXDTI1MDgwNzIwMzcwMFowgaoxCzAJBgNVBAYTAkVDMRwwGgYDVQQEDBNH
+QVJPRkFMTyBCVVNUQU1BTlRFMRcwFQYDVQQqDA5FRElTT04gR0FCUklFTDEZMBcGA1UEBRMQSURD
+RUMtMDgwNDYxMDgxNDErMCkGA1UEAwwiRURJU09OIEdBQlJJRUwgR0FST0ZBTE8gQlVTVEFNQU5U
+RTEcMBoGA1UEYQwTVElORUMtMDgwNDYxMDgxNDAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAJz6cDTFbGkbACpRLb8La6fdg6ENmGCpi8/1oX3CacrSJqhiloRNREPOppIKvMTQqCI2
+k9WLOIbYbT96Bw7Km8p82RSgXGW8coXAZSnhrDLPOy60yjGgjgbIBrPPC/MY4AJ16+D33mQjV57z
+BymUuylesadJh9TlWF7CJA6PggBDTIXtTl4DAS5zgRO942xkacFVOtM01K6lS5KqNbbCm0tgbX0P
+M5U3tD3r92dD+IxwEEtBLOmYl+Dnk4TM38fIsHUuSE8SKq6vRW8czcQIfNdVRKCSg4oyu8nQvTOe
+4eThMXWw9dzrIAgq4/pe1NfBUemXpxU/3iTqr8g+v7wyKasCAwEAAaOCBHMwggRvMBsGCysGAQQB
+gvE2ZgMBBAwMCjA4MDQ2MTA4MTQwHgYLKwYBBAGC8TZmAwsEDwwNMDgwNDYxMDgxNDAwMTCB1wYI
+KwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1Ymxp
+Yy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGG
+Kmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYq
+aHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBT9WUXu
+aU++o9ihslg9qcTlwP+YcjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDh
+EbJ0knP9MIGZBgNVHSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRw
+czovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNF
+UlRJRklDQURPIERFIFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8E
+gYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJz
+dWJvcmRpbmFkYS5jcmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtp
+L2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUF
+BwMCBggrBgEFBQcDBDCCAakGA1UdEQSCAaAwggGcgRplZGlzb25nYXJvZmFsbzg4QGdtYWlsLmNv
+baAbBgsrBgEEAYLxNmYDAaAMDAowODA0NjEwODE0oB8GCysGAQQBgvE2ZgMCoBAMDkVESVNPTiBH
+QUJSSUVMoBkGCysGAQQBgvE2ZgMDoAoMCEdBUk9GQUxPoBsGCysGAQQBgvE2ZgMEoAwMCkJVU1RB
+TUFOVEWgUQYLKwYBBAGC8TZmAwegQgxAQ0FMTEU6IENBTExFIFggTk1FUk86IFNPTEFSIDMgSU5U
+RVJTRUNDSU46IENBTExFIDE1IE1BTlpBTkE6IDE2MKAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk3
+OTM0NzM4MaAaBgsrBgEEAYLxNmYDCaALDAlDT1RBQ0FDSEmgHgYLKwYBBAGC8TZmAwugDwwNMDgw
+NDYxMDgxNDAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05B
+IE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsF
+AAOCAgEAvqhy2GlB6+baFUrFjKLuvl1GXFIZCl8Wit+AxFk9iJwJ0/EmGY+MCIcRl8HKJ3rUS73s
+F8oG/lW6KD32p6mnXRxmrmeqfL3+bsZ3ViLj4Xvw3uKtoSCtSlf0JA8QOAuUMZ0U3QV62aV3i6My
+2jsxI13qZm13NDLcuZ3E8UKQ2KMCmiP/FJ2hPinbZh0OWZsnQSi4rBAm0WNoL6KRtqQ1Tr4AudZB
+IuIKmFhJXtEIBoNk7j0W6Kb79rFfiSaFeYlGBZQZSzx2ryBvSXvdyDo6KdTCI9kEe0f7L2hUj5lg
+5SdYbm/lnFr4wCkPwoy/SEVqko/2/2ud9Kk1U5y0iP3UTqR/7aVeZlLUbFLGbN/QfyKSnFupynZ9
+Lacud7D810WXnmAwrdWMJhzFGWr5FM9E9wG5Pvbosl7mTMYhOrEPYg4KRmqzlczOCIc9k4fEk9vu
+a6B+by7rZmWIc4gzyKXEd/QrZrXnae7fFGxydGvi4LTNhunLnBBIwI6J8GJh6MTcQG2TBiMQn6Uq
+NbOxLH9gV5q3j/Wz6VICxeac+YaxHXMlBc6Otr92kVWbcwpCXb2jQzH2iUCo/a7+dGvzIMIuMfWE
+s4UfRM83KZzhFXZ/RqHtOZzohbletsFg8OU4JiSIc7RxjcL1GbCmm9hSEZzh1wZD9WBjbidRHbYn
+8r5pS88=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>nPpwNMVsaRsAKlEtvwtrp92DoQ2YYKmLz/WhfcJpytImqGKWhE1EQ86mkgq8xNCoIjaT1Ys4htht
+P3oHDsqbynzZFKBcZbxyhcBlKeGsMs87LrTKMaCOBsgGs88L8xjgAnXr4PfeZCNXnvMHKZS7KV6x
+p0mH1OVYXsIkDo+CAENMhe1OXgMBLnOBE73jbGRpwVU60zTUrqVLkqo1tsKbS2BtfQ8zlTe0Pev3
+Z0P4jHAQS0Es6ZiX4OeThMzfx8iwdS5ITxIqrq9FbxzNxAh811VEoJKDijK7ydC9M57h5OExdbD1
+3OsgCCrj+l7U18FR6ZenFT/eJOqvyD6/vDIpqw==</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature></factura>

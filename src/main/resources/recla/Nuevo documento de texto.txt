@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>1</ambiente> <!-- 1 = PRUEBAS -->
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MEGADATOS SA</razonSocial>
+    <nombreComercial>ECUANET</nombreComercial>
+    <ruc>1791287541001</ruc>
+    <claveAcceso>0106202501179128754100120980120010671701218302511</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>098</estab>
+    <ptoEmi>012</ptoEmi>
+    <secuencial>001067170</secuencial>
+    <dirMatriz>NUNEZ DE VELA E313 Y ATAHUALPA EDIFICIO TORRE DEL PUENTE 2DO PISO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>01/06/2025</fechaEmision>
+    <dirEstablecimiento>AV RODRIGO DE CHAVEZ PARQUE EMPRESARIAL COLON EDIF COLONCORP TORRE 6 LOCALES COMERCIALES 4 Y 5</dirEstablecimiento>
+    <contribuyenteEspecial>0176</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>EDISON GABRIEL GAROFALO BUSTAMANTE</razonSocialComprador>
+    <identificacionComprador>0804610814</identificacionComprador>
+    <totalSinImpuestos>17.99</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>17.99</baseImponible>
+        <valor>2.70</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>20.69</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>20.69</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>HO31NANA</codigoPrincipal>
+      <descripcion>CONSUMO DEL 01 JUNIO 2025 AL 30 JUNIO 2025, ECU-PLAN FIBRA 50MBPS NA.NA FECHA DE ACTIVACION 12-MAY-25</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>17.99</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>17.99</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>17.99</baseImponible>
+          <valor>2.70</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="EMAILCLIENTE">GAROFALOEDISON8@GMAIL.COM</campoAdicional>
+    <campoAdicional nombre="DIRCLIENTE">CALLE A Y CALLE C</campoAdicional>
+    <campoAdicional nombre="TELFCLIENTE">0959188170;0959188170;0992335080;0992335080</campoAdicional>
+  </infoAdicional>
+</factura>

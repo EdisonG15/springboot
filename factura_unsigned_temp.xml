@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<factura version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VENTAS DE PRODUCTO AGRICOLA</razonSocial>
+        <nombreComercial>EL AGRICULTOR</nombreComercial>
+        <ruc>0804610814001</ruc>
+        <claveAcceso>1507202501080461081400110010010000000071407851116</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000007</secuencial>
+        <dirMatriz>ESMERALDA</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>15/07/2025</fechaEmision>
+        <dirEstablecimiento>AV LAS GOLONDRINAS</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>MOMO DI DIVILUKE</razonSocialComprador>
+        <identificacionComprador>0804610814</identificacionComprador>
+        <totalSinImpuestos>6.76</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>6.76</baseImponible>
+                <valor>0.74</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>7.50</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>7.50</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>000010</codigoPrincipal>
+            <descripcion>ADAME 1</descripcion>
+            <cantidad>1.0</cantidad>
+            <precioUnitario>1.90</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>1.61</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>1.61</baseImponible>
+                    <valor>0.28</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>00009</codigoPrincipal>
+            <descripcion>SPARKO - 100 G</descripcion>
+            <cantidad>1.0</cantidad>
+            <precioUnitario>1.50</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>1.27</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>1.27</baseImponible>
+                    <valor>0.22</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>00002</codigoPrincipal>
+            <descripcion>SOLFOXIDANTE FUNGICIDA - ACARICIDA</descripcion>
+            <cantidad>1.0</cantidad>
+            <precioUnitario>2.50</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>2.50</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>2.50</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>00001</codigoPrincipal>
+            <descripcion>BATHUTIC - 1L</descripcion>
+            <cantidad>1.0</cantidad>
+            <precioUnitario>1.60</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>1.36</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>1.36</baseImponible>
+                    <valor>0.24</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="EMAILCLIENTE">DSDSSD@HOTMAL.COM</campoAdicional>
+        <campoAdicional nombre="TELFCLIENTE">09090978788</campoAdicional>
+    </infoAdicional>
+</factura>

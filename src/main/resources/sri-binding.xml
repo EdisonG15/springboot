@@ -1,0 +1,26 @@
+<jaxws:bindings
+        xmlns:jaxws="http://java.sun.com/xml/ns/jaxws"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+        jaxb:version="2.1"
+        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+        wsdlLocation="https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl">
+
+    <jaxws:bindings node="wsdl:definitions/wsdl:types/xsd:schema">
+        <jaxb:bindings node="xsd:complexType[@name='respuestaComprobante']/xsd:sequence/xsd:element[@name='autorizaciones']">
+            <jaxb:bindings node=".//xsd:element[@name='autorizacion']">
+                <jaxb:property name="autorizacion" />
+                <jaxb:class name="Autorizacion" />
+                <jaxb:package name="ec.gob.sri.ws.autorizacion" />
+            </jaxb:bindings>
+        </jaxb:bindings>
+
+        <jaxb:bindings node="xsd:complexType[@name='autorizacion']/xsd:sequence/xsd:element[@name='mensajes']">
+            <jaxb:bindings node=".//xsd:element[@name='mensaje']">
+                <jaxb:property name="mensaje" />
+                <jaxb:class name="Mensaje" />
+                <jaxb:package name="ec.gob.sri.ws.autorizacion" />
+            </jaxb:bindings>
+        </jaxb:bindings>
+    </jaxws:bindings>
+</jaxws:bindings>

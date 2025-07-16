@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    xmlns:barcode="http://barcode4j.krysalis.org/ns">
+
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="/">
+    <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+
+      <fo:layout-master-set>
+        <fo:simple-page-master master-name="factura"
+          page-height="29.7cm" page-width="21cm" margin="1cm">
+          <fo:region-body margin-top="1cm" margin-bottom="1cm"/>
+        </fo:simple-page-master>
+      </fo:layout-master-set>
+
+      <fo:page-sequence master-reference="factura">
+        <fo:flow flow-name="xsl-region-body">
+
+          <!-- Logo -->
+          <fo:block text-align="center" padding-bottom="5pt">
+            <fo:external-graphic src="url('file:///C:/Users/DELL/Desktop/manana/logo.png')" content-width="150px"/>
+          </fo:block>
+
+          <!-- Encabezado principal -->
+          <fo:table width="100%" table-layout="fixed" font-size="9pt" margin-bottom="5pt">
+            <fo:table-column column-width="50%"/>
+            <fo:table-column column-width="50%"/>
+            <fo:table-body>
+              <fo:table-row>
+                <!-- Datos del emisor -->
+                <fo:table-cell border="0.5pt solid black" padding="3pt">
+                  <fo:block font-weight="bold">MEGADATOS SA</fo:block>
+                  <fo:block>Dir Matriz: NUNEZ DE VELA E113 Y ATAHUALPA...</fo:block>
+                  <fo:block>Dir Sucursal: AV RODRIGO DE CHAVEZ...</fo:block>
+                  <fo:block>Contribuyente Especial Nro: 0176</fo:block>
+                  <fo:block>OBLIGADO A LLEVAR CONTABILIDAD: SI</fo:block>
+                </fo:table-cell>
+
+                <!-- Datos de la factura -->
+                <fo:table-cell border="0.5pt solid black" padding="3pt">
+                  <fo:block>R.U.C.: 1791287541001</fo:block>
+                  <fo:block font-weight="bold">FACTURA</fo:block>
+                  <fo:block>No.: 098-012-001163476</fo:block>
+                  <fo:block>NÚMERO DE AUTORIZACIÓN:</fo:block>
+                  <fo:block>0107202501179128754100120980120011634761148166414</fo:block>
+                  <fo:block>AMBIENTE: PRODUCCIÓN</fo:block>
+                  <fo:block>EMISIÓN: NORMAL</fo:block>
+                  <fo:block>CLAVE DE ACCESO</fo:block>
+
+                  <!-- Código de barras -->
+                  <fo:block text-align="center" border="0.5pt solid black" padding="4pt" margin-top="5pt">
+                    <barcode:barcode>
+                      <barcode:code128>
+                        <barcode:message>0107202501179128754100120980120011634761148166414</barcode:message>
+                      </barcode:code128>
+                    </barcode:barcode>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-body>
+          </fo:table>
+
+          <!-- Datos del cliente -->
+          <fo:block font-weight="bold" font-size="9pt">Razón Social / Nombres y Apellidos: EDISON GABRIEL GAROFALO BUSTAMANTE</fo:block>
+          <fo:block font-size="9pt">Identificación: 0804610814</fo:block>
+          <fo:block font-size="9pt">Fecha de Emisión: 01/07/2025</fo:block>
+
+          <!-- Tabla de productos -->
+          <fo:table table-layout="fixed" width="100%" border="0.5pt solid black" font-size="9pt" margin-top="5pt">
+            <fo:table-column column-width="15%"/>
+            <fo:table-column column-width="10%"/>
+            <fo:table-column column-width="45%"/>
+            <fo:table-column column-width="10%"/>
+            <fo:table-column column-width="10%"/>
+            <fo:table-column column-width="10%"/>
+            <fo:table-header>
+              <fo:table-row>
+                <fo:table-cell border="0.5pt solid black" text-align="center" font-weight="bold"><fo:block>Cod. Principal</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black" text-align="center" font-weight="bold"><fo:block>Cod. Auxiliar</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black" text-align="center" font-weight="bold"><fo:block>Descripción</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black" text-align="center" font-weight="bold"><fo:block>Precio Unitario</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black" text-align="center" font-weight="bold"><fo:block>Descuento</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black" text-align="center" font-weight="bold"><fo:block>Precio Total</fo:block></fo:table-cell>
+              </fo:table-row>
+            </fo:table-header>
+            <fo:table-body>
+              <fo:table-row>
+                <fo:table-cell border="0.5pt solid black"><fo:block>HO31NANA</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black"><fo:block>1</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black"><fo:block>CONSUMO DEL 01 JULIO 2025 AL 31 JULIO 2025...</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black"><fo:block>17.99</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black"><fo:block>0.00</fo:block></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black"><fo:block>17.99</fo:block></fo:table-cell>
+              </fo:table-row>
+            </fo:table-body>
+          </fo:table>
+
+          <!-- Información Adicional -->
+          <fo:block font-weight="bold" font-size="9pt" margin-top="10pt">Información Adicional</fo:block>
+          <fo:table width="100%" font-size="8pt">
+            <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
+            <fo:table-body>
+              <fo:table-row><fo:table-cell><fo:block>Login</fo:block></fo:table-cell><fo:table-cell><fo:block>EN-PQUEDGAROFALO81</fo:block></fo:table-cell></fo:table-row>
+              <fo:table-row><fo:table-cell><fo:block>Ciudad</fo:block></fo:table-cell><fo:table-cell><fo:block>PUERTO QUITO</fo:block></fo:table-cell></fo:table-row>
+              <fo:table-row><fo:table-cell><fo:block>Dirección</fo:block></fo:table-cell><fo:table-cell><fo:block>CALLE Y CALLE C</fo:block></fo:table-cell></fo:table-row>
+              <fo:table-row><fo:table-cell><fo:block>Teléfono</fo:block></fo:table-cell><fo:table-cell><fo:block>0992153800 / 0992553800</fo:block></fo:table-cell></fo:table-row>
+              <fo:table-row><fo:table-cell><fo:block>Correo</fo:block></fo:table-cell><fo:table-cell><fo:block>garofaloedison88@gmail.com</fo:block></fo:table-cell></fo:table-row>
+            </fo:table-body>
+          </fo:table>
+
+          <!-- Totales -->
+          <fo:table width="100%" table-layout="fixed" font-size="9pt" margin-top="5pt">
+            <fo:table-column column-width="70%"/>
+            <fo:table-column column-width="30%"/>
+            <fo:table-body>
+              <fo:table-row>
+                <fo:table-cell><fo:block/></fo:table-cell>
+                <fo:table-cell border="0.5pt solid black" padding="4pt">
+                  <fo:block>SUBTOTAL 15%: 17.99</fo:block>
+                  <fo:block>IVA 15%: 2.70</fo:block>
+                  <fo:block font-weight="bold">VALOR TOTAL: 20.69</fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-body>
+          </fo:table>
+
+          <!-- Forma de Pago -->
+          <fo:table width="100%" font-size="9pt" border="0.5pt solid black" margin-top="10pt">
+            <fo:table-column column-width="70%"/>
+            <fo:table-column column-width="30%"/>
+            <fo:table-body>
+              <fo:table-row>
+                <fo:table-cell padding="2pt" font-weight="bold">
+                  <fo:block>OTROS CON UTILIZACION DEL SISTEMA FINANCIERO</fo:block>
+                </fo:table-cell>
+                <fo:table-cell padding="2pt">
+                  <fo:block>20.69</fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-body>
+          </fo:table>
+
+        </fo:flow>
+      </fo:page-sequence>
+    </fo:root>
+  </xsl:template>
+
+</xsl:stylesheet>

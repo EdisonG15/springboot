@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VENTAS DE PRODUCTO AGRICOLA</razonSocial>
+        <nombreComercial>EL AGRICULTOR</nombreComercial>
+        <ruc>0804610814001</ruc>
+        <claveAcceso>1606202501080461081400110010010000000053795836514</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000005</secuencial>
+        <dirMatriz>ESMERALDA</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>16/06/2025</fechaEmision>
+        <dirEstablecimiento>AV LAS GOLONDRINAS</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>MARIA JOSE RODRIGUEZ COLUMBA</razonSocialComprador>
+        <identificacionComprador>0927368282</identificacionComprador>
+        <totalSinImpuestos>2.60</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>2.60</baseImponible>
+                <valor>0.40</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>3.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>3.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>00321</codigoPrincipal>
+            <descripcion>GEL PEQUEÑO</descripcion>
+            <cantidad>1.0</cantidad>
+            <precioUnitario>1.50</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>1.30</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>1.30</baseImponible>
+                    <valor>0.20</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>0032655655</codigoPrincipal>
+            <descripcion>GLYPHOSATE ISOPROPYLAMINE SALT (480 G/L)</descripcion>
+            <cantidad>1.0</cantidad>
+            <precioUnitario>1.50</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>1.30</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>1.30</baseImponible>
+                    <valor>0.20</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="EMAILCLIENTE">EDISONGAROFALO88@GMAIL.COM</campoAdicional>
+        <campoAdicional nombre="TELFCLIENTE">0991050275</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-08b3ea85-b97b-414b-9327-09f963e109fb">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference Id="xmldsig-08b3ea85-b97b-414b-9327-09f963e109fb-ref0" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>a+mkAhgMJn/TM3QYTysOGgbsXsDZ1irp8YQa5mEL/44=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-08b3ea85-b97b-414b-9327-09f963e109fb-signedprops">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Tw/4KtunMWp2C+twmAU8duSpElfMR7VWvhIyaIFmPSw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+HJb1X73mU5hIFmUlGSCLmAu9WaEy4HkxPb1vPjeDvXhDTkuQnwZ90DUlZvmhIBc/Kre3LR/enqOy
+QKSpRouc0lqrKnbiDKckmQrdy57uBJVQmbrEMD1E1rYdeZA3ypE/LS4N2hhARPBmWwpxxbim1sOb
+je9az2BCqlpPlPdBDnNqtPLEY1YzukIAKJp42YCR6dLHOJLJHt61EWX9cyWl8AdSifJ7yC64V1vJ
+6oEkra6mOAdn9+1//2eNCyOYpph/1C7PFrqA9NZfyLD4m6nDqtGwC6E2Dy2Fv2Vy6m/OVuzkgVXT
+tsM1Uk9CeJFrL8AC6wMowg7ybPLhNuciVo97Ow==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJWzCCB0OgAwIBAgIINDyamaivM/4wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI0MDgwNzIwMzcwMFoXDTI1MDgwNzIwMzcwMFowgaoxCzAJBgNVBAYTAkVDMRwwGgYDVQQEDBNH
+QVJPRkFMTyBCVVNUQU1BTlRFMRcwFQYDVQQqDA5FRElTT04gR0FCUklFTDEZMBcGA1UEBRMQSURD
+RUMtMDgwNDYxMDgxNDErMCkGA1UEAwwiRURJU09OIEdBQlJJRUwgR0FST0ZBTE8gQlVTVEFNQU5U
+RTEcMBoGA1UEYQwTVElORUMtMDgwNDYxMDgxNDAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAJz6cDTFbGkbACpRLb8La6fdg6ENmGCpi8/1oX3CacrSJqhiloRNREPOppIKvMTQqCI2
+k9WLOIbYbT96Bw7Km8p82RSgXGW8coXAZSnhrDLPOy60yjGgjgbIBrPPC/MY4AJ16+D33mQjV57z
+BymUuylesadJh9TlWF7CJA6PggBDTIXtTl4DAS5zgRO942xkacFVOtM01K6lS5KqNbbCm0tgbX0P
+M5U3tD3r92dD+IxwEEtBLOmYl+Dnk4TM38fIsHUuSE8SKq6vRW8czcQIfNdVRKCSg4oyu8nQvTOe
+4eThMXWw9dzrIAgq4/pe1NfBUemXpxU/3iTqr8g+v7wyKasCAwEAAaOCBHMwggRvMBsGCysGAQQB
+gvE2ZgMBBAwMCjA4MDQ2MTA4MTQwHgYLKwYBBAGC8TZmAwsEDwwNMDgwNDYxMDgxNDAwMTCB1wYI
+KwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1Ymxp
+Yy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGG
+Kmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYq
+aHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBT9WUXu
+aU++o9ihslg9qcTlwP+YcjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDh
+EbJ0knP9MIGZBgNVHSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRw
+czovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNF
+UlRJRklDQURPIERFIFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8E
+gYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJz
+dWJvcmRpbmFkYS5jcmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtp
+L2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUF
+BwMCBggrBgEFBQcDBDCCAakGA1UdEQSCAaAwggGcgRplZGlzb25nYXJvZmFsbzg4QGdtYWlsLmNv
+baAbBgsrBgEEAYLxNmYDAaAMDAowODA0NjEwODE0oB8GCysGAQQBgvE2ZgMCoBAMDkVESVNPTiBH
+QUJSSUVMoBkGCysGAQQBgvE2ZgMDoAoMCEdBUk9GQUxPoBsGCysGAQQBgvE2ZgMEoAwMCkJVU1RB
+TUFOVEWgUQYLKwYBBAGC8TZmAwegQgxAQ0FMTEU6IENBTExFIFggTk1FUk86IFNPTEFSIDMgSU5U
+RVJTRUNDSU46IENBTExFIDE1IE1BTlpBTkE6IDE2MKAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk3
+OTM0NzM4MaAaBgsrBgEEAYLxNmYDCaALDAlDT1RBQ0FDSEmgHgYLKwYBBAGC8TZmAwugDwwNMDgw
+NDYxMDgxNDAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05B
+IE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsF
+AAOCAgEAvqhy2GlB6+baFUrFjKLuvl1GXFIZCl8Wit+AxFk9iJwJ0/EmGY+MCIcRl8HKJ3rUS73s
+F8oG/lW6KD32p6mnXRxmrmeqfL3+bsZ3ViLj4Xvw3uKtoSCtSlf0JA8QOAuUMZ0U3QV62aV3i6My
+2jsxI13qZm13NDLcuZ3E8UKQ2KMCmiP/FJ2hPinbZh0OWZsnQSi4rBAm0WNoL6KRtqQ1Tr4AudZB
+IuIKmFhJXtEIBoNk7j0W6Kb79rFfiSaFeYlGBZQZSzx2ryBvSXvdyDo6KdTCI9kEe0f7L2hUj5lg
+5SdYbm/lnFr4wCkPwoy/SEVqko/2/2ud9Kk1U5y0iP3UTqR/7aVeZlLUbFLGbN/QfyKSnFupynZ9
+Lacud7D810WXnmAwrdWMJhzFGWr5FM9E9wG5Pvbosl7mTMYhOrEPYg4KRmqzlczOCIc9k4fEk9vu
+a6B+by7rZmWIc4gzyKXEd/QrZrXnae7fFGxydGvi4LTNhunLnBBIwI6J8GJh6MTcQG2TBiMQn6Uq
+NbOxLH9gV5q3j/Wz6VICxeac+YaxHXMlBc6Otr92kVWbcwpCXb2jQzH2iUCo/a7+dGvzIMIuMfWE
+s4UfRM83KZzhFXZ/RqHtOZzohbletsFg8OU4JiSIc7RxjcL1GbCmm9hSEZzh1wZD9WBjbidRHbYn
+8r5pS88=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-08b3ea85-b97b-414b-9327-09f963e109fb" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"><xades:SignedProperties Id="xmldsig-08b3ea85-b97b-414b-9327-09f963e109fb-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2025-07-10T21:49:25.538-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>pVFZtSL9g+owkNq4JMuRLFY8cVkPJopBwOmRWYMLQbY=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>3764053373325620222</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-08b3ea85-b97b-414b-9327-09f963e109fb-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></factura>

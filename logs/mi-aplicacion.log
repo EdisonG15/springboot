@@ -1,0 +1,1547 @@
+2025-07-16 07:06:35 INFO  c.e.f.e.FacturacionElectronicaApplication - Starting FacturacionElectronicaApplication using Java 1.8.0_421 on LAPTOP-J775M4JQ with PID 1872 (C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\target\classes started by Maria Jose in C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica)
+2025-07-16 07:06:35 INFO  c.e.f.e.FacturacionElectronicaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 07:06:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 07:06:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2025-07-16 07:06:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+2025-07-16 07:06:36 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 07:06:36 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-07-16 07:06:36 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 07:06:36 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1377 ms
+2025-07-16 07:06:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 07:06:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 07:06:37 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 07:06:37 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-07-16 07:06:37 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-07-16 07:06:37 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-07-16 07:06:37 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 07:06:37 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 07:06:37 INFO  c.e.f.electronica.services.SriClient - SOAP logging activado para tráfico de envío y recepción.
+2025-07-16 07:06:38 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 07:06:38 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path ''
+2025-07-16 07:06:38 INFO  c.e.f.e.FacturacionElectronicaApplication - Started FacturacionElectronicaApplication in 3.774 seconds (JVM running for 4.451)
+2025-07-16 07:08:09 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 07:08:09 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 07:08:09 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-16 07:16:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 07:16:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 07:16:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 07:16:08 INFO  c.e.f.e.FacturacionElectronicaApplication - Starting FacturacionElectronicaApplication using Java 1.8.0_421 on LAPTOP-J775M4JQ with PID 5044 (C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\target\classes started by Maria Jose in C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica)
+2025-07-16 07:16:08 INFO  c.e.f.e.FacturacionElectronicaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 07:16:08 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 07:16:08 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2025-07-16 07:16:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+2025-07-16 07:16:09 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 07:16:09 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-07-16 07:16:09 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 07:16:09 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1158 ms
+2025-07-16 07:16:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 07:16:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 07:16:10 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 07:16:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-07-16 07:16:10 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-07-16 07:16:10 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-07-16 07:16:10 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 07:16:10 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 07:16:10 INFO  c.e.f.electronica.services.SriClient - SOAP logging activado para tráfico de envío y recepción.
+2025-07-16 07:16:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 07:16:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path ''
+2025-07-16 07:16:11 INFO  c.e.f.e.FacturacionElectronicaApplication - Started FacturacionElectronicaApplication in 3.366 seconds (JVM running for 3.936)
+2025-07-16 07:16:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 07:16:16 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 07:16:16 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - org.codehaus.stax2.internNsUris is true
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributesPerElement is 500
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributeSize is 524.288
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxChildrenPerElement is 2.147.483.647
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementDepth is 500
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementCount is 2.147.483.647
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxCharacters is 9.223.372.036.854.775.807
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - XMLStreamReaderFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory$Woodstox@294678
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.s.db.BindingContextFactory - Using SPI-determined databindng mode: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.model.AbstractSEIModelImpl - Created binding context: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextWrapper
+2025-07-16 07:16:17 INFO  com.sun.xml.internal.ws.monitoring - Global client monitoring disabled. https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOffline will not be monitored
+2025-07-16 07:16:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 created
+2025-07-16 07:16:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 running with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@25044ed9.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@36bcc676
+2025-07-16 07:16:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread entering _doRun(): Thread[http-nio-9092-exec-5,5,main]
+2025-07-16 07:16:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@171d23b3.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@36bcc676
+2025-07-16 07:16:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@3c5923dd.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@36bcc676
+2025-07-16 07:16:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@5a158d07.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@36bcc676
+2025-07-16 07:16:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.transport.DeferredTransportPipe@2f270a53.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@36bcc676
+2025-07-16 07:16:17 DEBUG c.s.x.i.w.a.s.XMLStreamWriterFactory - XMLStreamWriterFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory$NoLock@dd13be2
+2025-07-16 07:16:18 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@5a158d07.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@4d2bd22c
+2025-07-16 07:16:18 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@3c5923dd.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@4d2bd22c
+2025-07-16 07:16:18 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@171d23b3.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@4d2bd22c
+2025-07-16 07:16:18 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@25044ed9.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@4d2bd22c
+2025-07-16 07:16:18 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube null.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@4d2bd22c
+2025-07-16 07:16:18 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread leaving _doRun(): Thread[http-nio-9092-exec-5,5,main]
+2025-07-16 07:16:18 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 completed
+2025-07-16 07:16:18 INFO  c.e.f.electronica.services.SriClient - Comprobando estado de autorización para clave de acceso: 1507202501080461081400110010010000000060455387810
+2025-07-16 07:16:18 DEBUG c.s.x.i.w.s.db.BindingContextFactory - Using SPI-determined databindng mode: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory
+2025-07-16 07:16:19 DEBUG c.s.x.i.w.model.AbstractSEIModelImpl - Created binding context: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextWrapper
+2025-07-16 07:16:19 INFO  com.sun.xml.internal.ws.monitoring - Global client monitoring disabled. https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline will not be monitored
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 created
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 running with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@436d393a.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@38eacab3
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread entering _doRun(): Thread[http-nio-9092-exec-5,5,main]
+2025-07-16 07:16:19 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Request:
+2025-07-16 07:16:19 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobante xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><claveAccesoComprobante>1507202501080461081400110010010000000060455387810</claveAccesoComprobante></ns2:autorizacionComprobante>
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@483a305b.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@38eacab3
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@6565eaf2.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@38eacab3
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@55051f93.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@38eacab3
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.transport.DeferredTransportPipe@7b9dee9d.processRequest() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@38eacab3
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@55051f93.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@180e4ae5
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@6565eaf2.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@180e4ae5
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@483a305b.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@180e4ae5
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@436d393a.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@180e4ae5
+2025-07-16 07:16:19 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Response:
+2025-07-16 07:16:19 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobanteResponse xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>1507202501080461081400110010010000000060455387810</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>1507202501080461081400110010010000000060455387810</numeroAutorizacion><fechaAutorizacion>2025-07-16T07:16:17-05:00</fechaAutorizacion><ambiente>PRUEBAS</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;factura id="comprobante" version="1.1.0"&gt;&#13;
+    &lt;infoTributaria&gt;&#13;
+        &lt;ambiente&gt;1&lt;/ambiente&gt;&#13;
+        &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;&#13;
+        &lt;razonSocial&gt;VENTAS DE PRODUCTO AGRICOLA&lt;/razonSocial&gt;&#13;
+        &lt;nombreComercial&gt;EL AGRICULTOR&lt;/nombreComercial&gt;&#13;
+        &lt;ruc&gt;0804610814001&lt;/ruc&gt;&#13;
+        &lt;claveAcceso&gt;1507202501080461081400110010010000000060455387810&lt;/claveAcceso&gt;&#13;
+        &lt;codDoc&gt;01&lt;/codDoc&gt;&#13;
+        &lt;estab&gt;001&lt;/estab&gt;&#13;
+        &lt;ptoEmi&gt;001&lt;/ptoEmi&gt;&#13;
+        &lt;secuencial&gt;000000006&lt;/secuencial&gt;&#13;
+        &lt;dirMatriz&gt;ESMERALDA&lt;/dirMatriz&gt;&#13;
+    &lt;/infoTributaria&gt;&#13;
+    &lt;infoFactura&gt;&#13;
+        &lt;fechaEmision&gt;15/07/2025&lt;/fechaEmision&gt;&#13;
+        &lt;dirEstablecimiento&gt;AV LAS GOLONDRINAS&lt;/dirEstablecimiento&gt;&#13;
+        &lt;obligadoContabilidad&gt;NO&lt;/obligadoContabilidad&gt;&#13;
+        &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;&#13;
+        &lt;razonSocialComprador&gt;MOMO DI DIVILUKE&lt;/razonSocialComprador&gt;&#13;
+        &lt;identificacionComprador&gt;0804610814&lt;/identificacionComprador&gt;&#13;
+        &lt;totalSinImpuestos&gt;6.76&lt;/totalSinImpuestos&gt;&#13;
+        &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt;&#13;
+        &lt;totalConImpuestos&gt;&#13;
+            &lt;totalImpuesto&gt;&#13;
+                &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                &lt;baseImponible&gt;6.76&lt;/baseImponible&gt;&#13;
+                &lt;valor&gt;0.74&lt;/valor&gt;&#13;
+            &lt;/totalImpuesto&gt;&#13;
+        &lt;/totalConImpuestos&gt;&#13;
+        &lt;propina&gt;0.00&lt;/propina&gt;&#13;
+        &lt;importeTotal&gt;7.50&lt;/importeTotal&gt;&#13;
+        &lt;moneda&gt;DOLAR&lt;/moneda&gt;&#13;
+        &lt;pagos&gt;&#13;
+            &lt;pago&gt;&#13;
+                &lt;formaPago&gt;20&lt;/formaPago&gt;&#13;
+                &lt;total&gt;7.50&lt;/total&gt;&#13;
+            &lt;/pago&gt;&#13;
+        &lt;/pagos&gt;&#13;
+    &lt;/infoFactura&gt;&#13;
+    &lt;detalles&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;000010&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;ADAME 1&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.90&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.61&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.61&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.28&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00009&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SPARKO - 100 G&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.27&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.27&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.22&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00002&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SOLFOXIDANTE FUNGICIDA - ACARICIDA&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;2.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;2.50&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;2.50&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.00&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00001&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;BATHUTIC - 1L&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.60&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.36&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.36&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.24&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+    &lt;/detalles&gt;&#13;
+    &lt;infoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="EMAILCLIENTE"&gt;DSDSSD@HOTMAL.COM&lt;/campoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="TELFCLIENTE"&gt;09090978788&lt;/campoAdicional&gt;&#13;
+    &lt;/infoAdicional&gt;&#13;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&#13;
+&lt;ds:SignedInfo&gt;&#13;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/&gt;&#13;
+&lt;ds:Reference Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0" URI="#comprobante"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;TcmfXpHSgfzUO9rzp7snd0crOLPDXqyhYqIkY/H1j2A=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;dyxCTcU56/KzjbcL0f3nWbH5WRECF1Qgazmd94vM55Y=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;/ds:SignedInfo&gt;&#13;
+&lt;ds:SignatureValue&gt;&#13;
+HFKKX9Hbj5iapnnEp6ZChu0FtuKe5RSOsQX7Qm7VpprDl2Q9Zyr/ry5zVPvFIQ9+ZJKSxUUZJwam&#13;
+eAKttTNsboOcgUKiXudU4h/KuCrxiilOuO3fStQ1XkXpJKC5wjUTnGldM9EKD1N8xnJqGiUy5OrZ&#13;
+JMcwfm4CfAPa+PpEg738XvTOSF84KkpOWqG8JLkYWPf6oKhAqxYCTE595fIfMHADawueiAjfPUWC&#13;
+yBvXe0LIYwYch38qSpq17tJCQAXi1cOVEyV4o2uqy2ZpUDJNOwN+kbXO2vNB0zhPdRkaSTriX3Ij&#13;
+ges0PA3v/rV3M2QJU1KmlUHKCmfkxEja8371/Q==&#13;
+&lt;/ds:SignatureValue&gt;&#13;
+&lt;ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;&#13;
+&lt;ds:X509Data&gt;&#13;
+&lt;ds:X509Certificate&gt;&#13;
+MIIJWzCCB0OgAwIBAgIINDyamaivM/4wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw&#13;
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv&#13;
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB&#13;
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X&#13;
+DTI0MDgwNzIwMzcwMFoXDTI1MDgwNzIwMzcwMFowgaoxCzAJBgNVBAYTAkVDMRwwGgYDVQQEDBNH&#13;
+QVJPRkFMTyBCVVNUQU1BTlRFMRcwFQYDVQQqDA5FRElTT04gR0FCUklFTDEZMBcGA1UEBRMQSURD&#13;
+RUMtMDgwNDYxMDgxNDErMCkGA1UEAwwiRURJU09OIEdBQlJJRUwgR0FST0ZBTE8gQlVTVEFNQU5U&#13;
+RTEcMBoGA1UEYQwTVElORUMtMDgwNDYxMDgxNDAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#13;
+AQoCggEBAJz6cDTFbGkbACpRLb8La6fdg6ENmGCpi8/1oX3CacrSJqhiloRNREPOppIKvMTQqCI2&#13;
+k9WLOIbYbT96Bw7Km8p82RSgXGW8coXAZSnhrDLPOy60yjGgjgbIBrPPC/MY4AJ16+D33mQjV57z&#13;
+BymUuylesadJh9TlWF7CJA6PggBDTIXtTl4DAS5zgRO942xkacFVOtM01K6lS5KqNbbCm0tgbX0P&#13;
+M5U3tD3r92dD+IxwEEtBLOmYl+Dnk4TM38fIsHUuSE8SKq6vRW8czcQIfNdVRKCSg4oyu8nQvTOe&#13;
+4eThMXWw9dzrIAgq4/pe1NfBUemXpxU/3iTqr8g+v7wyKasCAwEAAaOCBHMwggRvMBsGCysGAQQB&#13;
+gvE2ZgMBBAwMCjA4MDQ2MTA4MTQwHgYLKwYBBAGC8TZmAwsEDwwNMDgwNDYxMDgxNDAwMTCB1wYI&#13;
+KwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1Ymxp&#13;
+Yy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGG&#13;
+Kmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYq&#13;
+aHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBT9WUXu&#13;
+aU++o9ihslg9qcTlwP+YcjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDh&#13;
+EbJ0knP9MIGZBgNVHSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRw&#13;
+czovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNF&#13;
+UlRJRklDQURPIERFIFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8E&#13;
+gYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJz&#13;
+dWJvcmRpbmFkYS5jcmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtp&#13;
+L2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUF&#13;
+BwMCBggrBgEFBQcDBDCCAakGA1UdEQSCAaAwggGcgRplZGlzb25nYXJvZmFsbzg4QGdtYWlsLmNv&#13;
+baAbBgsrBgEEAYLxNmYDAaAMDAowODA0NjEwODE0oB8GCysGAQQBgvE2ZgMCoBAMDkVESVNPTiBH&#13;
+QUJSSUVMoBkGCysGAQQBgvE2ZgMDoAoMCEdBUk9GQUxPoBsGCysGAQQBgvE2ZgMEoAwMCkJVU1RB&#13;
+TUFOVEWgUQYLKwYBBAGC8TZmAwegQgxAQ0FMTEU6IENBTExFIFggTk1FUk86IFNPTEFSIDMgSU5U&#13;
+RVJTRUNDSU46IENBTExFIDE1IE1BTlpBTkE6IDE2MKAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk3&#13;
+OTM0NzM4MaAaBgsrBgEEAYLxNmYDCaALDAlDT1RBQ0FDSEmgHgYLKwYBBAGC8TZmAwugDwwNMDgw&#13;
+NDYxMDgxNDAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05B&#13;
+IE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsF&#13;
+AAOCAgEAvqhy2GlB6+baFUrFjKLuvl1GXFIZCl8Wit+AxFk9iJwJ0/EmGY+MCIcRl8HKJ3rUS73s&#13;
+F8oG/lW6KD32p6mnXRxmrmeqfL3+bsZ3ViLj4Xvw3uKtoSCtSlf0JA8QOAuUMZ0U3QV62aV3i6My&#13;
+2jsxI13qZm13NDLcuZ3E8UKQ2KMCmiP/FJ2hPinbZh0OWZsnQSi4rBAm0WNoL6KRtqQ1Tr4AudZB&#13;
+IuIKmFhJXtEIBoNk7j0W6Kb79rFfiSaFeYlGBZQZSzx2ryBvSXvdyDo6KdTCI9kEe0f7L2hUj5lg&#13;
+5SdYbm/lnFr4wCkPwoy/SEVqko/2/2ud9Kk1U5y0iP3UTqR/7aVeZlLUbFLGbN/QfyKSnFupynZ9&#13;
+Lacud7D810WXnmAwrdWMJhzFGWr5FM9E9wG5Pvbosl7mTMYhOrEPYg4KRmqzlczOCIc9k4fEk9vu&#13;
+a6B+by7rZmWIc4gzyKXEd/QrZrXnae7fFGxydGvi4LTNhunLnBBIwI6J8GJh6MTcQG2TBiMQn6Uq&#13;
+NbOxLH9gV5q3j/Wz6VICxeac+YaxHXMlBc6Otr92kVWbcwpCXb2jQzH2iUCo/a7+dGvzIMIuMfWE&#13;
+s4UfRM83KZzhFXZ/RqHtOZzohbletsFg8OU4JiSIc7RxjcL1GbCmm9hSEZzh1wZD9WBjbidRHbYn&#13;
+8r5pS88=&#13;
+&lt;/ds:X509Certificate&gt;&#13;
+&lt;/ds:X509Data&gt;&#13;
+&lt;/ds:KeyInfo&gt;&#13;
+&lt;ds:Object&gt;&lt;xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&lt;xades:SignedProperties Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&lt;xades:SignedSignatureProperties&gt;&lt;xades:SigningTime&gt;2025-07-16T07:16:16.482-05:00&lt;/xades:SigningTime&gt;&lt;xades:SigningCertificate&gt;&lt;xades:Cert&gt;&lt;xades:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&lt;ds:DigestValue&gt;pVFZtSL9g+owkNq4JMuRLFY8cVkPJopBwOmRWYMLQbY=&lt;/ds:DigestValue&gt;&lt;/xades:CertDigest&gt;&lt;xades:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;3764053373325620222&lt;/ds:X509SerialNumber&gt;&lt;/xades:IssuerSerial&gt;&lt;/xades:Cert&gt;&lt;/xades:SigningCertificate&gt;&lt;/xades:SignedSignatureProperties&gt;&lt;xades:SignedDataObjectProperties&gt;&lt;xades:DataObjectFormat ObjectReference="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0"&gt;&lt;xades:Description&gt;FIRMA DIGITAL SRI&lt;/xades:Description&gt;&lt;xades:MimeType&gt;text/xml&lt;/xades:MimeType&gt;&lt;xades:Encoding&gt;UTF-8&lt;/xades:Encoding&gt;&lt;/xades:DataObjectFormat&gt;&lt;/xades:SignedDataObjectProperties&gt;&lt;/xades:SignedProperties&gt;&lt;/xades:QualifyingProperties&gt;&lt;/ds:Object&gt;&#13;
+&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse>
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube null.processResponse() from thread http-nio-9092-exec-5 with Packet: com.sun.xml.internal.ws.api.message.Packet@180e4ae5
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread leaving _doRun(): Thread[http-nio-9092-exec-5,5,main]
+2025-07-16 07:16:19 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-2 completed
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient - Respuesta del SRI (objeto): no nula
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient - Clave Acceso Consultada: 1507202501080461081400110010010000000060455387810
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient - Numero Comprobantes: 1
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient - Autorizaciones objeto: no nulo
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient - Lista de Autorizacion: 1 elementos
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient -   Estado de Autorizacion: AUTORIZADO
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient -   Numero de Autorizacion: 1507202501080461081400110010010000000060455387810
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient - Contenido UNESCAPED del comprobante XML del CDATA: 
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VENTAS DE PRODUCTO AGRICOLA</razonSocial>
+        <nombreComercial>EL AGRICULTOR</nombreComercial>
+        <ruc>0804610814001</ruc>
+        <claveAcceso>1507202501080461081400110010010000000060455387810</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi...
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient - XML de Comprobante (firmado, del CDATA, desescapado) guardado en: C:\sri-authorized-xmls\1507202501080461081400110010010000000060455387810_comprobante_firmado.xml
+2025-07-16 07:16:19 INFO  c.e.f.electronica.services.SriClient - XML de Autorización completo (con comprobante en CDATA) guardado en: C:\sri-authorized-xmls\1507202501080461081400110010010000000060455387810_autorizacion_completa.xml
+2025-07-16 07:16:20 ERROR org.apache.fop.apps.FOUserAgent - Image not found. URI: file:///C:/Users/DELL/Desktop/manana/codigo_barras.png. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 449 millipoints. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 2 exceed the available area in the inline-progression direction by 2313 millipoints. (No context info available)
+2025-07-16 07:16:20 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 14319 millipoints. (No context info available)
+2025-07-16 07:16:20 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-07-16 07:16:20 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #2.
+2025-07-16 07:16:20 INFO  c.e.f.electronica.services.SriClient - ✅ PDF generado en: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\pdfs\1507202501080461081400110010010000000060455387810.pdf
+2025-07-16 07:18:18 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 07:18:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 07:18:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 09:34:24 INFO  c.e.f.e.FacturacionElectronicaApplication - Starting FacturacionElectronicaApplication using Java 1.8.0_421 on LAPTOP-J775M4JQ with PID 14252 (C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\target\classes started by Maria Jose in C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica)
+2025-07-16 09:34:24 INFO  c.e.f.e.FacturacionElectronicaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 09:34:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 09:34:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-07-16 09:34:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+2025-07-16 09:34:26 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 09:34:26 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-07-16 09:34:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 09:34:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2379 ms
+2025-07-16 09:34:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 09:34:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 09:34:28 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 09:34:28 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-07-16 09:34:28 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-07-16 09:34:28 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-07-16 09:34:29 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 09:34:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 09:34:29 INFO  c.e.f.electronica.services.SriClient - SOAP logging activado para tráfico de envío y recepción.
+2025-07-16 09:34:29 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 09:34:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path ''
+2025-07-16 09:34:29 INFO  c.e.f.e.FacturacionElectronicaApplication - Started FacturacionElectronicaApplication in 5.771 seconds (JVM running for 6.485)
+2025-07-16 09:34:31 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 09:34:31 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 09:34:31 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-16 09:34:31 INFO  c.e.f.electronica.services.SriClient - Comprobando estado de autorización para clave de acceso: 1507202501080461081400110010010000000060455387810
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - org.codehaus.stax2.internNsUris is true
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributesPerElement is 500
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributeSize is 524.288
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxChildrenPerElement is 2.147.483.647
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementDepth is 500
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementCount is 2.147.483.647
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxCharacters is 9.223.372.036.854.775.807
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - XMLStreamReaderFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory$Woodstox@6b7edc87
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.s.db.BindingContextFactory - Using SPI-determined databindng mode: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory
+2025-07-16 09:34:32 DEBUG c.s.x.i.w.model.AbstractSEIModelImpl - Created binding context: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextWrapper
+2025-07-16 09:34:33 INFO  com.sun.xml.internal.ws.monitoring - Global client monitoring disabled. https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline will not be monitored
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 created
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 running with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@1f8e5d2b.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@742aae76
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread entering _doRun(): Thread[http-nio-9092-exec-2,5,main]
+2025-07-16 09:34:33 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Request:
+2025-07-16 09:34:33 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobante xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><claveAccesoComprobante>1507202501080461081400110010010000000060455387810</claveAccesoComprobante></ns2:autorizacionComprobante>
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@64869a0c.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@742aae76
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@167b928b.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@742aae76
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@315669e5.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@742aae76
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.transport.DeferredTransportPipe@7b734a8e.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@742aae76
+2025-07-16 09:34:33 DEBUG c.s.x.i.w.a.s.XMLStreamWriterFactory - XMLStreamWriterFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory$NoLock@5a50c46a
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@315669e5.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@3c59273c
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@167b928b.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@3c59273c
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@64869a0c.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@3c59273c
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@1f8e5d2b.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@3c59273c
+2025-07-16 09:34:33 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Response:
+2025-07-16 09:34:33 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobanteResponse xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>1507202501080461081400110010010000000060455387810</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>1507202501080461081400110010010000000060455387810</numeroAutorizacion><fechaAutorizacion>2025-07-16T07:16:17-05:00</fechaAutorizacion><ambiente>PRUEBAS</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;factura id="comprobante" version="1.1.0"&gt;&#13;
+    &lt;infoTributaria&gt;&#13;
+        &lt;ambiente&gt;1&lt;/ambiente&gt;&#13;
+        &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;&#13;
+        &lt;razonSocial&gt;VENTAS DE PRODUCTO AGRICOLA&lt;/razonSocial&gt;&#13;
+        &lt;nombreComercial&gt;EL AGRICULTOR&lt;/nombreComercial&gt;&#13;
+        &lt;ruc&gt;0804610814001&lt;/ruc&gt;&#13;
+        &lt;claveAcceso&gt;1507202501080461081400110010010000000060455387810&lt;/claveAcceso&gt;&#13;
+        &lt;codDoc&gt;01&lt;/codDoc&gt;&#13;
+        &lt;estab&gt;001&lt;/estab&gt;&#13;
+        &lt;ptoEmi&gt;001&lt;/ptoEmi&gt;&#13;
+        &lt;secuencial&gt;000000006&lt;/secuencial&gt;&#13;
+        &lt;dirMatriz&gt;ESMERALDA&lt;/dirMatriz&gt;&#13;
+    &lt;/infoTributaria&gt;&#13;
+    &lt;infoFactura&gt;&#13;
+        &lt;fechaEmision&gt;15/07/2025&lt;/fechaEmision&gt;&#13;
+        &lt;dirEstablecimiento&gt;AV LAS GOLONDRINAS&lt;/dirEstablecimiento&gt;&#13;
+        &lt;obligadoContabilidad&gt;NO&lt;/obligadoContabilidad&gt;&#13;
+        &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;&#13;
+        &lt;razonSocialComprador&gt;MOMO DI DIVILUKE&lt;/razonSocialComprador&gt;&#13;
+        &lt;identificacionComprador&gt;0804610814&lt;/identificacionComprador&gt;&#13;
+        &lt;totalSinImpuestos&gt;6.76&lt;/totalSinImpuestos&gt;&#13;
+        &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt;&#13;
+        &lt;totalConImpuestos&gt;&#13;
+            &lt;totalImpuesto&gt;&#13;
+                &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                &lt;baseImponible&gt;6.76&lt;/baseImponible&gt;&#13;
+                &lt;valor&gt;0.74&lt;/valor&gt;&#13;
+            &lt;/totalImpuesto&gt;&#13;
+        &lt;/totalConImpuestos&gt;&#13;
+        &lt;propina&gt;0.00&lt;/propina&gt;&#13;
+        &lt;importeTotal&gt;7.50&lt;/importeTotal&gt;&#13;
+        &lt;moneda&gt;DOLAR&lt;/moneda&gt;&#13;
+        &lt;pagos&gt;&#13;
+            &lt;pago&gt;&#13;
+                &lt;formaPago&gt;20&lt;/formaPago&gt;&#13;
+                &lt;total&gt;7.50&lt;/total&gt;&#13;
+            &lt;/pago&gt;&#13;
+        &lt;/pagos&gt;&#13;
+    &lt;/infoFactura&gt;&#13;
+    &lt;detalles&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;000010&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;ADAME 1&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.90&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.61&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.61&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.28&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00009&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SPARKO - 100 G&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.27&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.27&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.22&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00002&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SOLFOXIDANTE FUNGICIDA - ACARICIDA&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;2.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;2.50&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;2.50&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.00&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00001&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;BATHUTIC - 1L&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.60&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.36&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.36&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.24&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+    &lt;/detalles&gt;&#13;
+    &lt;infoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="EMAILCLIENTE"&gt;DSDSSD@HOTMAL.COM&lt;/campoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="TELFCLIENTE"&gt;09090978788&lt;/campoAdicional&gt;&#13;
+    &lt;/infoAdicional&gt;&#13;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&#13;
+&lt;ds:SignedInfo&gt;&#13;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/&gt;&#13;
+&lt;ds:Reference Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0" URI="#comprobante"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;TcmfXpHSgfzUO9rzp7snd0crOLPDXqyhYqIkY/H1j2A=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;dyxCTcU56/KzjbcL0f3nWbH5WRECF1Qgazmd94vM55Y=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;/ds:SignedInfo&gt;&#13;
+&lt;ds:SignatureValue&gt;&#13;
+HFKKX9Hbj5iapnnEp6ZChu0FtuKe5RSOsQX7Qm7VpprDl2Q9Zyr/ry5zVPvFIQ9+ZJKSxUUZJwam&#13;
+eAKttTNsboOcgUKiXudU4h/KuCrxiilOuO3fStQ1XkXpJKC5wjUTnGldM9EKD1N8xnJqGiUy5OrZ&#13;
+JMcwfm4CfAPa+PpEg738XvTOSF84KkpOWqG8JLkYWPf6oKhAqxYCTE595fIfMHADawueiAjfPUWC&#13;
+yBvXe0LIYwYch38qSpq17tJCQAXi1cOVEyV4o2uqy2ZpUDJNOwN+kbXO2vNB0zhPdRkaSTriX3Ij&#13;
+ges0PA3v/rV3M2QJU1KmlUHKCmfkxEja8371/Q==&#13;
+&lt;/ds:SignatureValue&gt;&#13;
+&lt;ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;&#13;
+&lt;ds:X509Data&gt;&#13;
+&lt;ds:X509Certificate&gt;&#13;
+MIIJWzCCB0OgAwIBAgIINDyamaivM/4wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw&#13;
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv&#13;
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB&#13;
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X&#13;
+DTI0MDgwNzIwMzcwMFoXDTI1MDgwNzIwMzcwMFowgaoxCzAJBgNVBAYTAkVDMRwwGgYDVQQEDBNH&#13;
+QVJPRkFMTyBCVVNUQU1BTlRFMRcwFQYDVQQqDA5FRElTT04gR0FCUklFTDEZMBcGA1UEBRMQSURD&#13;
+RUMtMDgwNDYxMDgxNDErMCkGA1UEAwwiRURJU09OIEdBQlJJRUwgR0FST0ZBTE8gQlVTVEFNQU5U&#13;
+RTEcMBoGA1UEYQwTVElORUMtMDgwNDYxMDgxNDAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#13;
+AQoCggEBAJz6cDTFbGkbACpRLb8La6fdg6ENmGCpi8/1oX3CacrSJqhiloRNREPOppIKvMTQqCI2&#13;
+k9WLOIbYbT96Bw7Km8p82RSgXGW8coXAZSnhrDLPOy60yjGgjgbIBrPPC/MY4AJ16+D33mQjV57z&#13;
+BymUuylesadJh9TlWF7CJA6PggBDTIXtTl4DAS5zgRO942xkacFVOtM01K6lS5KqNbbCm0tgbX0P&#13;
+M5U3tD3r92dD+IxwEEtBLOmYl+Dnk4TM38fIsHUuSE8SKq6vRW8czcQIfNdVRKCSg4oyu8nQvTOe&#13;
+4eThMXWw9dzrIAgq4/pe1NfBUemXpxU/3iTqr8g+v7wyKasCAwEAAaOCBHMwggRvMBsGCysGAQQB&#13;
+gvE2ZgMBBAwMCjA4MDQ2MTA4MTQwHgYLKwYBBAGC8TZmAwsEDwwNMDgwNDYxMDgxNDAwMTCB1wYI&#13;
+KwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1Ymxp&#13;
+Yy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGG&#13;
+Kmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYq&#13;
+aHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBT9WUXu&#13;
+aU++o9ihslg9qcTlwP+YcjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDh&#13;
+EbJ0knP9MIGZBgNVHSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRw&#13;
+czovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNF&#13;
+UlRJRklDQURPIERFIFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8E&#13;
+gYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJz&#13;
+dWJvcmRpbmFkYS5jcmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtp&#13;
+L2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUF&#13;
+BwMCBggrBgEFBQcDBDCCAakGA1UdEQSCAaAwggGcgRplZGlzb25nYXJvZmFsbzg4QGdtYWlsLmNv&#13;
+baAbBgsrBgEEAYLxNmYDAaAMDAowODA0NjEwODE0oB8GCysGAQQBgvE2ZgMCoBAMDkVESVNPTiBH&#13;
+QUJSSUVMoBkGCysGAQQBgvE2ZgMDoAoMCEdBUk9GQUxPoBsGCysGAQQBgvE2ZgMEoAwMCkJVU1RB&#13;
+TUFOVEWgUQYLKwYBBAGC8TZmAwegQgxAQ0FMTEU6IENBTExFIFggTk1FUk86IFNPTEFSIDMgSU5U&#13;
+RVJTRUNDSU46IENBTExFIDE1IE1BTlpBTkE6IDE2MKAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk3&#13;
+OTM0NzM4MaAaBgsrBgEEAYLxNmYDCaALDAlDT1RBQ0FDSEmgHgYLKwYBBAGC8TZmAwugDwwNMDgw&#13;
+NDYxMDgxNDAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05B&#13;
+IE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsF&#13;
+AAOCAgEAvqhy2GlB6+baFUrFjKLuvl1GXFIZCl8Wit+AxFk9iJwJ0/EmGY+MCIcRl8HKJ3rUS73s&#13;
+F8oG/lW6KD32p6mnXRxmrmeqfL3+bsZ3ViLj4Xvw3uKtoSCtSlf0JA8QOAuUMZ0U3QV62aV3i6My&#13;
+2jsxI13qZm13NDLcuZ3E8UKQ2KMCmiP/FJ2hPinbZh0OWZsnQSi4rBAm0WNoL6KRtqQ1Tr4AudZB&#13;
+IuIKmFhJXtEIBoNk7j0W6Kb79rFfiSaFeYlGBZQZSzx2ryBvSXvdyDo6KdTCI9kEe0f7L2hUj5lg&#13;
+5SdYbm/lnFr4wCkPwoy/SEVqko/2/2ud9Kk1U5y0iP3UTqR/7aVeZlLUbFLGbN/QfyKSnFupynZ9&#13;
+Lacud7D810WXnmAwrdWMJhzFGWr5FM9E9wG5Pvbosl7mTMYhOrEPYg4KRmqzlczOCIc9k4fEk9vu&#13;
+a6B+by7rZmWIc4gzyKXEd/QrZrXnae7fFGxydGvi4LTNhunLnBBIwI6J8GJh6MTcQG2TBiMQn6Uq&#13;
+NbOxLH9gV5q3j/Wz6VICxeac+YaxHXMlBc6Otr92kVWbcwpCXb2jQzH2iUCo/a7+dGvzIMIuMfWE&#13;
+s4UfRM83KZzhFXZ/RqHtOZzohbletsFg8OU4JiSIc7RxjcL1GbCmm9hSEZzh1wZD9WBjbidRHbYn&#13;
+8r5pS88=&#13;
+&lt;/ds:X509Certificate&gt;&#13;
+&lt;/ds:X509Data&gt;&#13;
+&lt;/ds:KeyInfo&gt;&#13;
+&lt;ds:Object&gt;&lt;xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&lt;xades:SignedProperties Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&lt;xades:SignedSignatureProperties&gt;&lt;xades:SigningTime&gt;2025-07-16T07:16:16.482-05:00&lt;/xades:SigningTime&gt;&lt;xades:SigningCertificate&gt;&lt;xades:Cert&gt;&lt;xades:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&lt;ds:DigestValue&gt;pVFZtSL9g+owkNq4JMuRLFY8cVkPJopBwOmRWYMLQbY=&lt;/ds:DigestValue&gt;&lt;/xades:CertDigest&gt;&lt;xades:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;3764053373325620222&lt;/ds:X509SerialNumber&gt;&lt;/xades:IssuerSerial&gt;&lt;/xades:Cert&gt;&lt;/xades:SigningCertificate&gt;&lt;/xades:SignedSignatureProperties&gt;&lt;xades:SignedDataObjectProperties&gt;&lt;xades:DataObjectFormat ObjectReference="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0"&gt;&lt;xades:Description&gt;FIRMA DIGITAL SRI&lt;/xades:Description&gt;&lt;xades:MimeType&gt;text/xml&lt;/xades:MimeType&gt;&lt;xades:Encoding&gt;UTF-8&lt;/xades:Encoding&gt;&lt;/xades:DataObjectFormat&gt;&lt;/xades:SignedDataObjectProperties&gt;&lt;/xades:SignedProperties&gt;&lt;/xades:QualifyingProperties&gt;&lt;/ds:Object&gt;&#13;
+&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse>
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube null.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@3c59273c
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread leaving _doRun(): Thread[http-nio-9092-exec-2,5,main]
+2025-07-16 09:34:33 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 completed
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient - Respuesta del SRI (objeto): no nula
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient - Clave Acceso Consultada: 1507202501080461081400110010010000000060455387810
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient - Numero Comprobantes: 1
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient - Autorizaciones objeto: no nulo
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient - Lista de Autorizacion: 1 elementos
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient -   Estado de Autorizacion: AUTORIZADO
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient -   Numero de Autorizacion: 1507202501080461081400110010010000000060455387810
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient - Contenido UNESCAPED del comprobante XML del CDATA: 
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VENTAS DE PRODUCTO AGRICOLA</razonSocial>
+        <nombreComercial>EL AGRICULTOR</nombreComercial>
+        <ruc>0804610814001</ruc>
+        <claveAcceso>1507202501080461081400110010010000000060455387810</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi...
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient - XML de Comprobante (firmado, del CDATA, desescapado) guardado en: C:\sri-authorized-xmls\1507202501080461081400110010010000000060455387810_comprobante_firmado.xml
+2025-07-16 09:34:33 INFO  c.e.f.electronica.services.SriClient - XML de Autorización completo (con comprobante en CDATA) guardado en: C:\sri-authorized-xmls\1507202501080461081400110010010000000060455387810_autorizacion_completa.xml
+2025-07-16 09:34:35 ERROR org.apache.fop.apps.FOUserAgent - Image not found. URI: file:///C:/Users/DELL/Desktop/manana/codigo_barras.png. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 449 millipoints. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 2 exceed the available area in the inline-progression direction by 2313 millipoints. (No context info available)
+2025-07-16 09:34:35 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 14319 millipoints. (No context info available)
+2025-07-16 09:34:35 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-07-16 09:34:35 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #2.
+2025-07-16 09:34:35 INFO  c.e.f.electronica.services.SriClient - ✅ PDF generado en: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\pdfs\1507202501080461081400110010010000000060455387810.pdf
+2025-07-16 09:34:55 DEBUG c.s.x.i.w.s.db.BindingContextFactory - Using SPI-determined databindng mode: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory
+2025-07-16 09:34:55 DEBUG c.s.x.i.w.model.AbstractSEIModelImpl - Created binding context: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextWrapper
+2025-07-16 09:34:55 INFO  com.sun.xml.internal.ws.monitoring - Global client monitoring disabled. https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOffline will not be monitored
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 created
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 running with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@4fbfdb9e.processRequest() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@7e7f9a08
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread entering _doRun(): Thread[http-nio-9092-exec-3,5,main]
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@58e557d0.processRequest() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@7e7f9a08
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@2d25ce17.processRequest() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@7e7f9a08
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@1c778306.processRequest() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@7e7f9a08
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.transport.DeferredTransportPipe@1edaf55a.processRequest() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@7e7f9a08
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@1c778306.processResponse() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@344030e9
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@2d25ce17.processResponse() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@344030e9
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@58e557d0.processResponse() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@344030e9
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@4fbfdb9e.processResponse() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@344030e9
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 After tube execution with NO ACTION or MSG ID and 'current' tube null.processResponse() from thread http-nio-9092-exec-3 with Packet: com.sun.xml.internal.ws.api.message.Packet@344030e9
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread leaving _doRun(): Thread[http-nio-9092-exec-3,5,main]
+2025-07-16 09:34:55 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-2 completed
+2025-07-16 09:35:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 09:35:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 09:35:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 10:04:03 INFO  c.e.f.e.FacturacionElectronicaApplication - Starting FacturacionElectronicaApplication using Java 1.8.0_421 on LAPTOP-J775M4JQ with PID 12060 (C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\target\classes started by Maria Jose in C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica)
+2025-07-16 10:04:03 INFO  c.e.f.e.FacturacionElectronicaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 10:04:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 10:04:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2025-07-16 10:04:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+2025-07-16 10:04:04 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 10:04:04 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-07-16 10:04:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 10:04:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1636 ms
+2025-07-16 10:04:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 10:04:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 10:04:05 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 10:04:05 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-07-16 10:04:06 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-07-16 10:04:06 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-07-16 10:04:06 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 10:04:06 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 10:04:06 INFO  c.e.f.electronica.services.SriClient - SOAP logging activado para tráfico de envío y recepción.
+2025-07-16 10:04:06 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 10:04:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path ''
+2025-07-16 10:04:07 INFO  c.e.f.e.FacturacionElectronicaApplication - Started FacturacionElectronicaApplication in 4.752 seconds (JVM running for 5.551)
+2025-07-16 10:04:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 10:04:44 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 10:04:44 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-07-16 10:04:45 INFO  c.e.f.electronica.services.SriClient - Comprobando estado de autorización para clave de acceso: 1507202501080461081400110010010000000060455387810
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - org.codehaus.stax2.internNsUris is true
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributesPerElement is 500
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributeSize is 524.288
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxChildrenPerElement is 2.147.483.647
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementDepth is 500
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementCount is 2.147.483.647
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxCharacters is 9.223.372.036.854.775.807
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - XMLStreamReaderFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory$Woodstox@2115ae6d
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.s.db.BindingContextFactory - Using SPI-determined databindng mode: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory
+2025-07-16 10:04:46 DEBUG c.s.x.i.w.model.AbstractSEIModelImpl - Created binding context: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextWrapper
+2025-07-16 10:04:46 INFO  com.sun.xml.internal.ws.monitoring - Global client monitoring disabled. https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline will not be monitored
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 created
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 running with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@57eff499.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@2982a8b9
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread entering _doRun(): Thread[http-nio-9092-exec-2,5,main]
+2025-07-16 10:04:47 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Request:
+2025-07-16 10:04:47 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobante xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><claveAccesoComprobante>1507202501080461081400110010010000000060455387810</claveAccesoComprobante></ns2:autorizacionComprobante>
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@6fa6eec7.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@2982a8b9
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@6688d51.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@2982a8b9
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@6b6e636a.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@2982a8b9
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.transport.DeferredTransportPipe@292e7953.processRequest() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@2982a8b9
+2025-07-16 10:04:47 DEBUG c.s.x.i.w.a.s.XMLStreamWriterFactory - XMLStreamWriterFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory$NoLock@6dd3eb3b
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@6b6e636a.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@7df7ab0b
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@6688d51.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@7df7ab0b
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@6fa6eec7.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@7df7ab0b
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@57eff499.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@7df7ab0b
+2025-07-16 10:04:47 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Response:
+2025-07-16 10:04:47 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobanteResponse xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>1507202501080461081400110010010000000060455387810</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>1507202501080461081400110010010000000060455387810</numeroAutorizacion><fechaAutorizacion>2025-07-16T07:16:17-05:00</fechaAutorizacion><ambiente>PRUEBAS</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;factura id="comprobante" version="1.1.0"&gt;&#13;
+    &lt;infoTributaria&gt;&#13;
+        &lt;ambiente&gt;1&lt;/ambiente&gt;&#13;
+        &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;&#13;
+        &lt;razonSocial&gt;VENTAS DE PRODUCTO AGRICOLA&lt;/razonSocial&gt;&#13;
+        &lt;nombreComercial&gt;EL AGRICULTOR&lt;/nombreComercial&gt;&#13;
+        &lt;ruc&gt;0804610814001&lt;/ruc&gt;&#13;
+        &lt;claveAcceso&gt;1507202501080461081400110010010000000060455387810&lt;/claveAcceso&gt;&#13;
+        &lt;codDoc&gt;01&lt;/codDoc&gt;&#13;
+        &lt;estab&gt;001&lt;/estab&gt;&#13;
+        &lt;ptoEmi&gt;001&lt;/ptoEmi&gt;&#13;
+        &lt;secuencial&gt;000000006&lt;/secuencial&gt;&#13;
+        &lt;dirMatriz&gt;ESMERALDA&lt;/dirMatriz&gt;&#13;
+    &lt;/infoTributaria&gt;&#13;
+    &lt;infoFactura&gt;&#13;
+        &lt;fechaEmision&gt;15/07/2025&lt;/fechaEmision&gt;&#13;
+        &lt;dirEstablecimiento&gt;AV LAS GOLONDRINAS&lt;/dirEstablecimiento&gt;&#13;
+        &lt;obligadoContabilidad&gt;NO&lt;/obligadoContabilidad&gt;&#13;
+        &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;&#13;
+        &lt;razonSocialComprador&gt;MOMO DI DIVILUKE&lt;/razonSocialComprador&gt;&#13;
+        &lt;identificacionComprador&gt;0804610814&lt;/identificacionComprador&gt;&#13;
+        &lt;totalSinImpuestos&gt;6.76&lt;/totalSinImpuestos&gt;&#13;
+        &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt;&#13;
+        &lt;totalConImpuestos&gt;&#13;
+            &lt;totalImpuesto&gt;&#13;
+                &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                &lt;baseImponible&gt;6.76&lt;/baseImponible&gt;&#13;
+                &lt;valor&gt;0.74&lt;/valor&gt;&#13;
+            &lt;/totalImpuesto&gt;&#13;
+        &lt;/totalConImpuestos&gt;&#13;
+        &lt;propina&gt;0.00&lt;/propina&gt;&#13;
+        &lt;importeTotal&gt;7.50&lt;/importeTotal&gt;&#13;
+        &lt;moneda&gt;DOLAR&lt;/moneda&gt;&#13;
+        &lt;pagos&gt;&#13;
+            &lt;pago&gt;&#13;
+                &lt;formaPago&gt;20&lt;/formaPago&gt;&#13;
+                &lt;total&gt;7.50&lt;/total&gt;&#13;
+            &lt;/pago&gt;&#13;
+        &lt;/pagos&gt;&#13;
+    &lt;/infoFactura&gt;&#13;
+    &lt;detalles&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;000010&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;ADAME 1&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.90&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.61&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.61&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.28&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00009&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SPARKO - 100 G&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.27&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.27&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.22&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00002&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SOLFOXIDANTE FUNGICIDA - ACARICIDA&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;2.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;2.50&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;2.50&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.00&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00001&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;BATHUTIC - 1L&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.60&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.36&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.36&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.24&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+    &lt;/detalles&gt;&#13;
+    &lt;infoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="EMAILCLIENTE"&gt;DSDSSD@HOTMAL.COM&lt;/campoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="TELFCLIENTE"&gt;09090978788&lt;/campoAdicional&gt;&#13;
+    &lt;/infoAdicional&gt;&#13;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&#13;
+&lt;ds:SignedInfo&gt;&#13;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/&gt;&#13;
+&lt;ds:Reference Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0" URI="#comprobante"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;TcmfXpHSgfzUO9rzp7snd0crOLPDXqyhYqIkY/H1j2A=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;dyxCTcU56/KzjbcL0f3nWbH5WRECF1Qgazmd94vM55Y=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;/ds:SignedInfo&gt;&#13;
+&lt;ds:SignatureValue&gt;&#13;
+HFKKX9Hbj5iapnnEp6ZChu0FtuKe5RSOsQX7Qm7VpprDl2Q9Zyr/ry5zVPvFIQ9+ZJKSxUUZJwam&#13;
+eAKttTNsboOcgUKiXudU4h/KuCrxiilOuO3fStQ1XkXpJKC5wjUTnGldM9EKD1N8xnJqGiUy5OrZ&#13;
+JMcwfm4CfAPa+PpEg738XvTOSF84KkpOWqG8JLkYWPf6oKhAqxYCTE595fIfMHADawueiAjfPUWC&#13;
+yBvXe0LIYwYch38qSpq17tJCQAXi1cOVEyV4o2uqy2ZpUDJNOwN+kbXO2vNB0zhPdRkaSTriX3Ij&#13;
+ges0PA3v/rV3M2QJU1KmlUHKCmfkxEja8371/Q==&#13;
+&lt;/ds:SignatureValue&gt;&#13;
+&lt;ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;&#13;
+&lt;ds:X509Data&gt;&#13;
+&lt;ds:X509Certificate&gt;&#13;
+MIIJWzCCB0OgAwIBAgIINDyamaivM/4wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw&#13;
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv&#13;
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB&#13;
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X&#13;
+DTI0MDgwNzIwMzcwMFoXDTI1MDgwNzIwMzcwMFowgaoxCzAJBgNVBAYTAkVDMRwwGgYDVQQEDBNH&#13;
+QVJPRkFMTyBCVVNUQU1BTlRFMRcwFQYDVQQqDA5FRElTT04gR0FCUklFTDEZMBcGA1UEBRMQSURD&#13;
+RUMtMDgwNDYxMDgxNDErMCkGA1UEAwwiRURJU09OIEdBQlJJRUwgR0FST0ZBTE8gQlVTVEFNQU5U&#13;
+RTEcMBoGA1UEYQwTVElORUMtMDgwNDYxMDgxNDAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#13;
+AQoCggEBAJz6cDTFbGkbACpRLb8La6fdg6ENmGCpi8/1oX3CacrSJqhiloRNREPOppIKvMTQqCI2&#13;
+k9WLOIbYbT96Bw7Km8p82RSgXGW8coXAZSnhrDLPOy60yjGgjgbIBrPPC/MY4AJ16+D33mQjV57z&#13;
+BymUuylesadJh9TlWF7CJA6PggBDTIXtTl4DAS5zgRO942xkacFVOtM01K6lS5KqNbbCm0tgbX0P&#13;
+M5U3tD3r92dD+IxwEEtBLOmYl+Dnk4TM38fIsHUuSE8SKq6vRW8czcQIfNdVRKCSg4oyu8nQvTOe&#13;
+4eThMXWw9dzrIAgq4/pe1NfBUemXpxU/3iTqr8g+v7wyKasCAwEAAaOCBHMwggRvMBsGCysGAQQB&#13;
+gvE2ZgMBBAwMCjA4MDQ2MTA4MTQwHgYLKwYBBAGC8TZmAwsEDwwNMDgwNDYxMDgxNDAwMTCB1wYI&#13;
+KwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1Ymxp&#13;
+Yy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGG&#13;
+Kmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYq&#13;
+aHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBT9WUXu&#13;
+aU++o9ihslg9qcTlwP+YcjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDh&#13;
+EbJ0knP9MIGZBgNVHSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRw&#13;
+czovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNF&#13;
+UlRJRklDQURPIERFIFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8E&#13;
+gYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJz&#13;
+dWJvcmRpbmFkYS5jcmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtp&#13;
+L2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUF&#13;
+BwMCBggrBgEFBQcDBDCCAakGA1UdEQSCAaAwggGcgRplZGlzb25nYXJvZmFsbzg4QGdtYWlsLmNv&#13;
+baAbBgsrBgEEAYLxNmYDAaAMDAowODA0NjEwODE0oB8GCysGAQQBgvE2ZgMCoBAMDkVESVNPTiBH&#13;
+QUJSSUVMoBkGCysGAQQBgvE2ZgMDoAoMCEdBUk9GQUxPoBsGCysGAQQBgvE2ZgMEoAwMCkJVU1RB&#13;
+TUFOVEWgUQYLKwYBBAGC8TZmAwegQgxAQ0FMTEU6IENBTExFIFggTk1FUk86IFNPTEFSIDMgSU5U&#13;
+RVJTRUNDSU46IENBTExFIDE1IE1BTlpBTkE6IDE2MKAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk3&#13;
+OTM0NzM4MaAaBgsrBgEEAYLxNmYDCaALDAlDT1RBQ0FDSEmgHgYLKwYBBAGC8TZmAwugDwwNMDgw&#13;
+NDYxMDgxNDAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05B&#13;
+IE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsF&#13;
+AAOCAgEAvqhy2GlB6+baFUrFjKLuvl1GXFIZCl8Wit+AxFk9iJwJ0/EmGY+MCIcRl8HKJ3rUS73s&#13;
+F8oG/lW6KD32p6mnXRxmrmeqfL3+bsZ3ViLj4Xvw3uKtoSCtSlf0JA8QOAuUMZ0U3QV62aV3i6My&#13;
+2jsxI13qZm13NDLcuZ3E8UKQ2KMCmiP/FJ2hPinbZh0OWZsnQSi4rBAm0WNoL6KRtqQ1Tr4AudZB&#13;
+IuIKmFhJXtEIBoNk7j0W6Kb79rFfiSaFeYlGBZQZSzx2ryBvSXvdyDo6KdTCI9kEe0f7L2hUj5lg&#13;
+5SdYbm/lnFr4wCkPwoy/SEVqko/2/2ud9Kk1U5y0iP3UTqR/7aVeZlLUbFLGbN/QfyKSnFupynZ9&#13;
+Lacud7D810WXnmAwrdWMJhzFGWr5FM9E9wG5Pvbosl7mTMYhOrEPYg4KRmqzlczOCIc9k4fEk9vu&#13;
+a6B+by7rZmWIc4gzyKXEd/QrZrXnae7fFGxydGvi4LTNhunLnBBIwI6J8GJh6MTcQG2TBiMQn6Uq&#13;
+NbOxLH9gV5q3j/Wz6VICxeac+YaxHXMlBc6Otr92kVWbcwpCXb2jQzH2iUCo/a7+dGvzIMIuMfWE&#13;
+s4UfRM83KZzhFXZ/RqHtOZzohbletsFg8OU4JiSIc7RxjcL1GbCmm9hSEZzh1wZD9WBjbidRHbYn&#13;
+8r5pS88=&#13;
+&lt;/ds:X509Certificate&gt;&#13;
+&lt;/ds:X509Data&gt;&#13;
+&lt;/ds:KeyInfo&gt;&#13;
+&lt;ds:Object&gt;&lt;xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&lt;xades:SignedProperties Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&lt;xades:SignedSignatureProperties&gt;&lt;xades:SigningTime&gt;2025-07-16T07:16:16.482-05:00&lt;/xades:SigningTime&gt;&lt;xades:SigningCertificate&gt;&lt;xades:Cert&gt;&lt;xades:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&lt;ds:DigestValue&gt;pVFZtSL9g+owkNq4JMuRLFY8cVkPJopBwOmRWYMLQbY=&lt;/ds:DigestValue&gt;&lt;/xades:CertDigest&gt;&lt;xades:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;3764053373325620222&lt;/ds:X509SerialNumber&gt;&lt;/xades:IssuerSerial&gt;&lt;/xades:Cert&gt;&lt;/xades:SigningCertificate&gt;&lt;/xades:SignedSignatureProperties&gt;&lt;xades:SignedDataObjectProperties&gt;&lt;xades:DataObjectFormat ObjectReference="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0"&gt;&lt;xades:Description&gt;FIRMA DIGITAL SRI&lt;/xades:Description&gt;&lt;xades:MimeType&gt;text/xml&lt;/xades:MimeType&gt;&lt;xades:Encoding&gt;UTF-8&lt;/xades:Encoding&gt;&lt;/xades:DataObjectFormat&gt;&lt;/xades:SignedDataObjectProperties&gt;&lt;/xades:SignedProperties&gt;&lt;/xades:QualifyingProperties&gt;&lt;/ds:Object&gt;&#13;
+&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse>
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube null.processResponse() from thread http-nio-9092-exec-2 with Packet: com.sun.xml.internal.ws.api.message.Packet@7df7ab0b
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread leaving _doRun(): Thread[http-nio-9092-exec-2,5,main]
+2025-07-16 10:04:47 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 completed
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - Respuesta del SRI (objeto): no nula
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - Clave Acceso Consultada: 1507202501080461081400110010010000000060455387810
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - Numero Comprobantes: 1
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - Autorizaciones objeto: no nulo
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - Lista de Autorizacion: 1 elementos
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient -   Estado de Autorizacion: AUTORIZADO
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient -   Numero de Autorizacion: 1507202501080461081400110010010000000060455387810
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - Contenido UNESCAPED del comprobante XML del CDATA: 
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VENTAS DE PRODUCTO AGRICOLA</razonSocial>
+        <nombreComercial>EL AGRICULTOR</nombreComercial>
+        <ruc>0804610814001</ruc>
+        <claveAcceso>1507202501080461081400110010010000000060455387810</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi...
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - XML de Comprobante (firmado, del CDATA, desescapado) guardado temporalmente en: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\documentos\2025\07\1507202501080461081400110010010000000060455387810_temp_comprobante.xml
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - XML de Comprobante renombrado y movido a: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\documentos\2025\07\FACTURA_001-001-000000006_15-07-2025_comprobante.xml
+2025-07-16 10:04:47 INFO  c.e.f.electronica.services.SriClient - XML de Autorización completo (con comprobante en CDATA) guardado en: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\documentos\2025\07\1507202501080461081400110010010000000060455387810_autorizacion_completa.xml
+2025-07-16 10:04:48 ERROR org.apache.fop.apps.FOUserAgent - Image not found. URI: file:///C:/Users/DELL/Desktop/manana/codigo_barras.png. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 449 millipoints. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 2 exceed the available area in the inline-progression direction by 2313 millipoints. (No context info available)
+2025-07-16 10:04:48 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 14319 millipoints. (No context info available)
+2025-07-16 10:04:48 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-07-16 10:04:48 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #2.
+2025-07-16 10:04:48 INFO  c.e.f.electronica.services.SriClient - ✅ PDF generado en: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\documentos\2025\07\1507202501080461081400110010010000000060455387810.pdf
+2025-07-16 10:11:20 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 10:11:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 10:11:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 10:14:04 INFO  c.e.f.e.FacturacionElectronicaApplication - Starting FacturacionElectronicaApplication using Java 1.8.0_421 on LAPTOP-J775M4JQ with PID 14232 (C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\target\classes started by Maria Jose in C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica)
+2025-07-16 10:14:04 INFO  c.e.f.e.FacturacionElectronicaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 10:14:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 10:14:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-07-16 10:14:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+2025-07-16 10:14:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 10:14:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-07-16 10:14:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 10:14:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1582 ms
+2025-07-16 10:14:06 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 10:14:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 10:14:07 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 10:14:07 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-07-16 10:14:07 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-07-16 10:14:07 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-07-16 10:14:08 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 10:14:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 10:14:08 INFO  c.e.f.electronica.services.SriClient - SOAP logging activado para tráfico de envío y recepción.
+2025-07-16 10:14:08 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 10:14:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path ''
+2025-07-16 10:14:08 INFO  c.e.f.e.FacturacionElectronicaApplication - Started FacturacionElectronicaApplication in 4.491 seconds (JVM running for 5.196)
+2025-07-16 10:14:56 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 10:14:56 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 10:14:56 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-07-16 10:14:56 INFO  c.e.f.electronica.services.SriClient - Comprobando estado de autorización para clave de acceso: 1507202501080461081400110010010000000060455387810
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - org.codehaus.stax2.internNsUris is true
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributesPerElement is 500
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributeSize is 524.288
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxChildrenPerElement is 2.147.483.647
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementDepth is 500
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementCount is 2.147.483.647
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxCharacters is 9.223.372.036.854.775.807
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - XMLStreamReaderFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory$Woodstox@4c84dbb5
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.s.db.BindingContextFactory - Using SPI-determined databindng mode: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.model.AbstractSEIModelImpl - Created binding context: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextWrapper
+2025-07-16 10:14:57 INFO  com.sun.xml.internal.ws.monitoring - Global client monitoring disabled. https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline will not be monitored
+2025-07-16 10:14:57 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 created
+2025-07-16 10:14:57 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 running with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@71027515.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@48fc80a0
+2025-07-16 10:14:57 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread entering _doRun(): Thread[http-nio-9092-exec-1,5,main]
+2025-07-16 10:14:57 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Request:
+2025-07-16 10:14:57 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobante xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><claveAccesoComprobante>1507202501080461081400110010010000000060455387810</claveAccesoComprobante></ns2:autorizacionComprobante>
+2025-07-16 10:14:57 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@5f0845ed.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@48fc80a0
+2025-07-16 10:14:57 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@2c4f2fd9.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@48fc80a0
+2025-07-16 10:14:57 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@647b28b7.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@48fc80a0
+2025-07-16 10:14:57 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.transport.DeferredTransportPipe@319ff206.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@48fc80a0
+2025-07-16 10:14:57 DEBUG c.s.x.i.w.a.s.XMLStreamWriterFactory - XMLStreamWriterFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory$NoLock@3aada2e2
+2025-07-16 10:14:58 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@647b28b7.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@635115c9
+2025-07-16 10:14:58 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@2c4f2fd9.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@635115c9
+2025-07-16 10:14:58 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@5f0845ed.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@635115c9
+2025-07-16 10:14:58 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@71027515.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@635115c9
+2025-07-16 10:14:58 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Response:
+2025-07-16 10:14:58 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobanteResponse xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>1507202501080461081400110010010000000060455387810</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>1507202501080461081400110010010000000060455387810</numeroAutorizacion><fechaAutorizacion>2025-07-16T07:16:17-05:00</fechaAutorizacion><ambiente>PRUEBAS</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;factura id="comprobante" version="1.1.0"&gt;&#13;
+    &lt;infoTributaria&gt;&#13;
+        &lt;ambiente&gt;1&lt;/ambiente&gt;&#13;
+        &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;&#13;
+        &lt;razonSocial&gt;VENTAS DE PRODUCTO AGRICOLA&lt;/razonSocial&gt;&#13;
+        &lt;nombreComercial&gt;EL AGRICULTOR&lt;/nombreComercial&gt;&#13;
+        &lt;ruc&gt;0804610814001&lt;/ruc&gt;&#13;
+        &lt;claveAcceso&gt;1507202501080461081400110010010000000060455387810&lt;/claveAcceso&gt;&#13;
+        &lt;codDoc&gt;01&lt;/codDoc&gt;&#13;
+        &lt;estab&gt;001&lt;/estab&gt;&#13;
+        &lt;ptoEmi&gt;001&lt;/ptoEmi&gt;&#13;
+        &lt;secuencial&gt;000000006&lt;/secuencial&gt;&#13;
+        &lt;dirMatriz&gt;ESMERALDA&lt;/dirMatriz&gt;&#13;
+    &lt;/infoTributaria&gt;&#13;
+    &lt;infoFactura&gt;&#13;
+        &lt;fechaEmision&gt;15/07/2025&lt;/fechaEmision&gt;&#13;
+        &lt;dirEstablecimiento&gt;AV LAS GOLONDRINAS&lt;/dirEstablecimiento&gt;&#13;
+        &lt;obligadoContabilidad&gt;NO&lt;/obligadoContabilidad&gt;&#13;
+        &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;&#13;
+        &lt;razonSocialComprador&gt;MOMO DI DIVILUKE&lt;/razonSocialComprador&gt;&#13;
+        &lt;identificacionComprador&gt;0804610814&lt;/identificacionComprador&gt;&#13;
+        &lt;totalSinImpuestos&gt;6.76&lt;/totalSinImpuestos&gt;&#13;
+        &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt;&#13;
+        &lt;totalConImpuestos&gt;&#13;
+            &lt;totalImpuesto&gt;&#13;
+                &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                &lt;baseImponible&gt;6.76&lt;/baseImponible&gt;&#13;
+                &lt;valor&gt;0.74&lt;/valor&gt;&#13;
+            &lt;/totalImpuesto&gt;&#13;
+        &lt;/totalConImpuestos&gt;&#13;
+        &lt;propina&gt;0.00&lt;/propina&gt;&#13;
+        &lt;importeTotal&gt;7.50&lt;/importeTotal&gt;&#13;
+        &lt;moneda&gt;DOLAR&lt;/moneda&gt;&#13;
+        &lt;pagos&gt;&#13;
+            &lt;pago&gt;&#13;
+                &lt;formaPago&gt;20&lt;/formaPago&gt;&#13;
+                &lt;total&gt;7.50&lt;/total&gt;&#13;
+            &lt;/pago&gt;&#13;
+        &lt;/pagos&gt;&#13;
+    &lt;/infoFactura&gt;&#13;
+    &lt;detalles&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;000010&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;ADAME 1&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.90&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.61&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.61&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.28&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00009&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SPARKO - 100 G&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.27&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.27&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.22&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00002&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SOLFOXIDANTE FUNGICIDA - ACARICIDA&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;2.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;2.50&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;2.50&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.00&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00001&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;BATHUTIC - 1L&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.60&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.36&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.36&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.24&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+    &lt;/detalles&gt;&#13;
+    &lt;infoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="EMAILCLIENTE"&gt;DSDSSD@HOTMAL.COM&lt;/campoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="TELFCLIENTE"&gt;09090978788&lt;/campoAdicional&gt;&#13;
+    &lt;/infoAdicional&gt;&#13;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&#13;
+&lt;ds:SignedInfo&gt;&#13;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/&gt;&#13;
+&lt;ds:Reference Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0" URI="#comprobante"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;TcmfXpHSgfzUO9rzp7snd0crOLPDXqyhYqIkY/H1j2A=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;dyxCTcU56/KzjbcL0f3nWbH5WRECF1Qgazmd94vM55Y=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;/ds:SignedInfo&gt;&#13;
+&lt;ds:SignatureValue&gt;&#13;
+HFKKX9Hbj5iapnnEp6ZChu0FtuKe5RSOsQX7Qm7VpprDl2Q9Zyr/ry5zVPvFIQ9+ZJKSxUUZJwam&#13;
+eAKttTNsboOcgUKiXudU4h/KuCrxiilOuO3fStQ1XkXpJKC5wjUTnGldM9EKD1N8xnJqGiUy5OrZ&#13;
+JMcwfm4CfAPa+PpEg738XvTOSF84KkpOWqG8JLkYWPf6oKhAqxYCTE595fIfMHADawueiAjfPUWC&#13;
+yBvXe0LIYwYch38qSpq17tJCQAXi1cOVEyV4o2uqy2ZpUDJNOwN+kbXO2vNB0zhPdRkaSTriX3Ij&#13;
+ges0PA3v/rV3M2QJU1KmlUHKCmfkxEja8371/Q==&#13;
+&lt;/ds:SignatureValue&gt;&#13;
+&lt;ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;&#13;
+&lt;ds:X509Data&gt;&#13;
+&lt;ds:X509Certificate&gt;&#13;
+MIIJWzCCB0OgAwIBAgIINDyamaivM/4wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw&#13;
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv&#13;
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB&#13;
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X&#13;
+DTI0MDgwNzIwMzcwMFoXDTI1MDgwNzIwMzcwMFowgaoxCzAJBgNVBAYTAkVDMRwwGgYDVQQEDBNH&#13;
+QVJPRkFMTyBCVVNUQU1BTlRFMRcwFQYDVQQqDA5FRElTT04gR0FCUklFTDEZMBcGA1UEBRMQSURD&#13;
+RUMtMDgwNDYxMDgxNDErMCkGA1UEAwwiRURJU09OIEdBQlJJRUwgR0FST0ZBTE8gQlVTVEFNQU5U&#13;
+RTEcMBoGA1UEYQwTVElORUMtMDgwNDYxMDgxNDAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#13;
+AQoCggEBAJz6cDTFbGkbACpRLb8La6fdg6ENmGCpi8/1oX3CacrSJqhiloRNREPOppIKvMTQqCI2&#13;
+k9WLOIbYbT96Bw7Km8p82RSgXGW8coXAZSnhrDLPOy60yjGgjgbIBrPPC/MY4AJ16+D33mQjV57z&#13;
+BymUuylesadJh9TlWF7CJA6PggBDTIXtTl4DAS5zgRO942xkacFVOtM01K6lS5KqNbbCm0tgbX0P&#13;
+M5U3tD3r92dD+IxwEEtBLOmYl+Dnk4TM38fIsHUuSE8SKq6vRW8czcQIfNdVRKCSg4oyu8nQvTOe&#13;
+4eThMXWw9dzrIAgq4/pe1NfBUemXpxU/3iTqr8g+v7wyKasCAwEAAaOCBHMwggRvMBsGCysGAQQB&#13;
+gvE2ZgMBBAwMCjA4MDQ2MTA4MTQwHgYLKwYBBAGC8TZmAwsEDwwNMDgwNDYxMDgxNDAwMTCB1wYI&#13;
+KwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1Ymxp&#13;
+Yy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGG&#13;
+Kmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYq&#13;
+aHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBT9WUXu&#13;
+aU++o9ihslg9qcTlwP+YcjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDh&#13;
+EbJ0knP9MIGZBgNVHSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRw&#13;
+czovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNF&#13;
+UlRJRklDQURPIERFIFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8E&#13;
+gYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJz&#13;
+dWJvcmRpbmFkYS5jcmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtp&#13;
+L2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUF&#13;
+BwMCBggrBgEFBQcDBDCCAakGA1UdEQSCAaAwggGcgRplZGlzb25nYXJvZmFsbzg4QGdtYWlsLmNv&#13;
+baAbBgsrBgEEAYLxNmYDAaAMDAowODA0NjEwODE0oB8GCysGAQQBgvE2ZgMCoBAMDkVESVNPTiBH&#13;
+QUJSSUVMoBkGCysGAQQBgvE2ZgMDoAoMCEdBUk9GQUxPoBsGCysGAQQBgvE2ZgMEoAwMCkJVU1RB&#13;
+TUFOVEWgUQYLKwYBBAGC8TZmAwegQgxAQ0FMTEU6IENBTExFIFggTk1FUk86IFNPTEFSIDMgSU5U&#13;
+RVJTRUNDSU46IENBTExFIDE1IE1BTlpBTkE6IDE2MKAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk3&#13;
+OTM0NzM4MaAaBgsrBgEEAYLxNmYDCaALDAlDT1RBQ0FDSEmgHgYLKwYBBAGC8TZmAwugDwwNMDgw&#13;
+NDYxMDgxNDAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05B&#13;
+IE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsF&#13;
+AAOCAgEAvqhy2GlB6+baFUrFjKLuvl1GXFIZCl8Wit+AxFk9iJwJ0/EmGY+MCIcRl8HKJ3rUS73s&#13;
+F8oG/lW6KD32p6mnXRxmrmeqfL3+bsZ3ViLj4Xvw3uKtoSCtSlf0JA8QOAuUMZ0U3QV62aV3i6My&#13;
+2jsxI13qZm13NDLcuZ3E8UKQ2KMCmiP/FJ2hPinbZh0OWZsnQSi4rBAm0WNoL6KRtqQ1Tr4AudZB&#13;
+IuIKmFhJXtEIBoNk7j0W6Kb79rFfiSaFeYlGBZQZSzx2ryBvSXvdyDo6KdTCI9kEe0f7L2hUj5lg&#13;
+5SdYbm/lnFr4wCkPwoy/SEVqko/2/2ud9Kk1U5y0iP3UTqR/7aVeZlLUbFLGbN/QfyKSnFupynZ9&#13;
+Lacud7D810WXnmAwrdWMJhzFGWr5FM9E9wG5Pvbosl7mTMYhOrEPYg4KRmqzlczOCIc9k4fEk9vu&#13;
+a6B+by7rZmWIc4gzyKXEd/QrZrXnae7fFGxydGvi4LTNhunLnBBIwI6J8GJh6MTcQG2TBiMQn6Uq&#13;
+NbOxLH9gV5q3j/Wz6VICxeac+YaxHXMlBc6Otr92kVWbcwpCXb2jQzH2iUCo/a7+dGvzIMIuMfWE&#13;
+s4UfRM83KZzhFXZ/RqHtOZzohbletsFg8OU4JiSIc7RxjcL1GbCmm9hSEZzh1wZD9WBjbidRHbYn&#13;
+8r5pS88=&#13;
+&lt;/ds:X509Certificate&gt;&#13;
+&lt;/ds:X509Data&gt;&#13;
+&lt;/ds:KeyInfo&gt;&#13;
+&lt;ds:Object&gt;&lt;xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&lt;xades:SignedProperties Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&lt;xades:SignedSignatureProperties&gt;&lt;xades:SigningTime&gt;2025-07-16T07:16:16.482-05:00&lt;/xades:SigningTime&gt;&lt;xades:SigningCertificate&gt;&lt;xades:Cert&gt;&lt;xades:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&lt;ds:DigestValue&gt;pVFZtSL9g+owkNq4JMuRLFY8cVkPJopBwOmRWYMLQbY=&lt;/ds:DigestValue&gt;&lt;/xades:CertDigest&gt;&lt;xades:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;3764053373325620222&lt;/ds:X509SerialNumber&gt;&lt;/xades:IssuerSerial&gt;&lt;/xades:Cert&gt;&lt;/xades:SigningCertificate&gt;&lt;/xades:SignedSignatureProperties&gt;&lt;xades:SignedDataObjectProperties&gt;&lt;xades:DataObjectFormat ObjectReference="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0"&gt;&lt;xades:Description&gt;FIRMA DIGITAL SRI&lt;/xades:Description&gt;&lt;xades:MimeType&gt;text/xml&lt;/xades:MimeType&gt;&lt;xades:Encoding&gt;UTF-8&lt;/xades:Encoding&gt;&lt;/xades:DataObjectFormat&gt;&lt;/xades:SignedDataObjectProperties&gt;&lt;/xades:SignedProperties&gt;&lt;/xades:QualifyingProperties&gt;&lt;/ds:Object&gt;&#13;
+&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse>
+2025-07-16 10:14:58 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube null.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@635115c9
+2025-07-16 10:14:58 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread leaving _doRun(): Thread[http-nio-9092-exec-1,5,main]
+2025-07-16 10:14:58 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 completed
+2025-07-16 10:14:58 INFO  c.e.f.electronica.services.SriClient - Respuesta del SRI (objeto): no nula
+2025-07-16 10:14:58 INFO  c.e.f.electronica.services.SriClient - Contenido UNESCAPED del comprobante XML del CDATA: 
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VENTAS DE PRODUCTO AGRICOLA</razonSocial>
+        <nombreComercial>EL AGRICULTOR</nombreComercial>
+        <ruc>0804610814001</ruc>
+        <claveAcceso>1507202501080461081400110010010000000060455387810</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi...
+2025-07-16 10:14:58 INFO  c.e.f.electronica.services.SriClient - XML de Comprobante (firmado, del CDATA, desescapado) guardado en: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\documentos\2025\07\FACTURA_001-001-000000006_15-07-2025_comprobante.xml
+2025-07-16 10:14:58 INFO  c.e.f.electronica.services.SriClient - XML de Autorización completo (con comprobante en CDATA) guardado en: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\documentos\2025\07\FACTURA_001-001-000000006_15-07-2025_autorizacion.xml
+2025-07-16 10:15:00 ERROR org.apache.fop.apps.FOUserAgent - Image not found. URI: file:///C:/Users/DELL/Desktop/manana/codigo_barras.png. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 449 millipoints. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 2 exceed the available area in the inline-progression direction by 2313 millipoints. (No context info available)
+2025-07-16 10:15:00 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 14319 millipoints. (No context info available)
+2025-07-16 10:15:01 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-07-16 10:15:01 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #2.
+2025-07-16 10:15:01 INFO  c.e.f.electronica.services.SriClient - ✅ PDF generado en: C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\documentos\2025\07\FACTURA_001-001-000000006_15-07-2025.pdf
+2025-07-16 10:16:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 10:16:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 10:16:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 10:24:12 INFO  c.e.f.e.FacturacionElectronicaApplication - Starting FacturacionElectronicaApplication using Java 1.8.0_421 on LAPTOP-J775M4JQ with PID 14368 (C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\target\classes started by Maria Jose in C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica)
+2025-07-16 10:24:12 INFO  c.e.f.e.FacturacionElectronicaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 10:24:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 10:24:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2025-07-16 10:24:13 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+2025-07-16 10:24:13 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 10:24:13 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-07-16 10:24:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 10:24:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1515 ms
+2025-07-16 10:24:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 10:24:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 10:24:15 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 10:24:15 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-07-16 10:24:15 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-07-16 10:24:15 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-07-16 10:24:15 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 10:24:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 10:24:15 INFO  c.e.f.electronica.services.SriClient - SOAP logging activado para tráfico de envío y recepción.
+2025-07-16 10:24:16 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 10:24:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path ''
+2025-07-16 10:24:16 INFO  c.e.f.e.FacturacionElectronicaApplication - Started FacturacionElectronicaApplication in 4.321 seconds (JVM running for 4.949)
+2025-07-16 10:24:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 10:24:38 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 10:24:38 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-16 10:24:38 INFO  c.e.f.electronica.services.SriClient - Comprobando estado de autorización para clave de acceso: 1507202501080461081400110010010000000060455387810
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - org.codehaus.stax2.internNsUris is true
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributesPerElement is 500
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributeSize is 524.288
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxChildrenPerElement is 2.147.483.647
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementDepth is 500
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementCount is 2.147.483.647
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxCharacters is 9.223.372.036.854.775.807
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - XMLStreamReaderFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory$Woodstox@5c1849dc
+2025-07-16 10:24:39 DEBUG c.s.x.i.w.s.db.BindingContextFactory - Using SPI-determined databindng mode: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory
+2025-07-16 10:24:40 DEBUG c.s.x.i.w.model.AbstractSEIModelImpl - Created binding context: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextWrapper
+2025-07-16 10:24:40 INFO  com.sun.xml.internal.ws.monitoring - Global client monitoring disabled. https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline will not be monitored
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 created
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 running with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@3ad37246.processRequest() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@1510216c
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread entering _doRun(): Thread[http-nio-9092-exec-6,5,main]
+2025-07-16 10:24:40 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Request:
+2025-07-16 10:24:40 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobante xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><claveAccesoComprobante>1507202501080461081400110010010000000060455387810</claveAccesoComprobante></ns2:autorizacionComprobante>
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@26acadd2.processRequest() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@1510216c
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@12674c53.processRequest() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@1510216c
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@391d08a4.processRequest() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@1510216c
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.transport.DeferredTransportPipe@11b0ce00.processRequest() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@1510216c
+2025-07-16 10:24:40 DEBUG c.s.x.i.w.a.s.XMLStreamWriterFactory - XMLStreamWriterFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory$NoLock@492dba73
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@391d08a4.processResponse() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@421c446b
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@12674c53.processResponse() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@421c446b
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@26acadd2.processResponse() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@421c446b
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@3ad37246.processResponse() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@421c446b
+2025-07-16 10:24:40 INFO  c.e.f.e.services.SoapLoggingHandler - SOAP Response:
+2025-07-16 10:24:40 INFO  c.e.f.e.services.SoapLoggingHandler - <?xml version="1.0" encoding="UTF-8"?><ns2:autorizacionComprobanteResponse xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>1507202501080461081400110010010000000060455387810</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>1507202501080461081400110010010000000060455387810</numeroAutorizacion><fechaAutorizacion>2025-07-16T07:16:17-05:00</fechaAutorizacion><ambiente>PRUEBAS</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;factura id="comprobante" version="1.1.0"&gt;&#13;
+    &lt;infoTributaria&gt;&#13;
+        &lt;ambiente&gt;1&lt;/ambiente&gt;&#13;
+        &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;&#13;
+        &lt;razonSocial&gt;VENTAS DE PRODUCTO AGRICOLA&lt;/razonSocial&gt;&#13;
+        &lt;nombreComercial&gt;EL AGRICULTOR&lt;/nombreComercial&gt;&#13;
+        &lt;ruc&gt;0804610814001&lt;/ruc&gt;&#13;
+        &lt;claveAcceso&gt;1507202501080461081400110010010000000060455387810&lt;/claveAcceso&gt;&#13;
+        &lt;codDoc&gt;01&lt;/codDoc&gt;&#13;
+        &lt;estab&gt;001&lt;/estab&gt;&#13;
+        &lt;ptoEmi&gt;001&lt;/ptoEmi&gt;&#13;
+        &lt;secuencial&gt;000000006&lt;/secuencial&gt;&#13;
+        &lt;dirMatriz&gt;ESMERALDA&lt;/dirMatriz&gt;&#13;
+    &lt;/infoTributaria&gt;&#13;
+    &lt;infoFactura&gt;&#13;
+        &lt;fechaEmision&gt;15/07/2025&lt;/fechaEmision&gt;&#13;
+        &lt;dirEstablecimiento&gt;AV LAS GOLONDRINAS&lt;/dirEstablecimiento&gt;&#13;
+        &lt;obligadoContabilidad&gt;NO&lt;/obligadoContabilidad&gt;&#13;
+        &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;&#13;
+        &lt;razonSocialComprador&gt;MOMO DI DIVILUKE&lt;/razonSocialComprador&gt;&#13;
+        &lt;identificacionComprador&gt;0804610814&lt;/identificacionComprador&gt;&#13;
+        &lt;totalSinImpuestos&gt;6.76&lt;/totalSinImpuestos&gt;&#13;
+        &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt;&#13;
+        &lt;totalConImpuestos&gt;&#13;
+            &lt;totalImpuesto&gt;&#13;
+                &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                &lt;baseImponible&gt;6.76&lt;/baseImponible&gt;&#13;
+                &lt;valor&gt;0.74&lt;/valor&gt;&#13;
+            &lt;/totalImpuesto&gt;&#13;
+        &lt;/totalConImpuestos&gt;&#13;
+        &lt;propina&gt;0.00&lt;/propina&gt;&#13;
+        &lt;importeTotal&gt;7.50&lt;/importeTotal&gt;&#13;
+        &lt;moneda&gt;DOLAR&lt;/moneda&gt;&#13;
+        &lt;pagos&gt;&#13;
+            &lt;pago&gt;&#13;
+                &lt;formaPago&gt;20&lt;/formaPago&gt;&#13;
+                &lt;total&gt;7.50&lt;/total&gt;&#13;
+            &lt;/pago&gt;&#13;
+        &lt;/pagos&gt;&#13;
+    &lt;/infoFactura&gt;&#13;
+    &lt;detalles&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;000010&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;ADAME 1&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.90&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.61&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.61&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.28&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00009&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SPARKO - 100 G&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.27&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.27&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.22&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00002&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;SOLFOXIDANTE FUNGICIDA - ACARICIDA&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;2.50&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;2.50&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;2.50&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.00&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+        &lt;detalle&gt;&#13;
+            &lt;codigoPrincipal&gt;00001&lt;/codigoPrincipal&gt;&#13;
+            &lt;descripcion&gt;BATHUTIC - 1L&lt;/descripcion&gt;&#13;
+            &lt;cantidad&gt;1.0&lt;/cantidad&gt;&#13;
+            &lt;precioUnitario&gt;1.60&lt;/precioUnitario&gt;&#13;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;&#13;
+            &lt;precioTotalSinImpuesto&gt;1.36&lt;/precioTotalSinImpuesto&gt;&#13;
+            &lt;impuestos&gt;&#13;
+                &lt;impuesto&gt;&#13;
+                    &lt;codigo&gt;2&lt;/codigo&gt;&#13;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;&#13;
+                    &lt;tarifa&gt;15&lt;/tarifa&gt;&#13;
+                    &lt;baseImponible&gt;1.36&lt;/baseImponible&gt;&#13;
+                    &lt;valor&gt;0.24&lt;/valor&gt;&#13;
+                &lt;/impuesto&gt;&#13;
+            &lt;/impuestos&gt;&#13;
+        &lt;/detalle&gt;&#13;
+    &lt;/detalles&gt;&#13;
+    &lt;infoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="EMAILCLIENTE"&gt;DSDSSD@HOTMAL.COM&lt;/campoAdicional&gt;&#13;
+        &lt;campoAdicional nombre="TELFCLIENTE"&gt;09090978788&lt;/campoAdicional&gt;&#13;
+    &lt;/infoAdicional&gt;&#13;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&#13;
+&lt;ds:SignedInfo&gt;&#13;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/&gt;&#13;
+&lt;ds:Reference Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0" URI="#comprobante"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;TcmfXpHSgfzUO9rzp7snd0crOLPDXqyhYqIkY/H1j2A=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&#13;
+&lt;ds:Transforms&gt;&#13;
+&lt;ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;&#13;
+&lt;/ds:Transforms&gt;&#13;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&#13;
+&lt;ds:DigestValue&gt;dyxCTcU56/KzjbcL0f3nWbH5WRECF1Qgazmd94vM55Y=&lt;/ds:DigestValue&gt;&#13;
+&lt;/ds:Reference&gt;&#13;
+&lt;/ds:SignedInfo&gt;&#13;
+&lt;ds:SignatureValue&gt;&#13;
+HFKKX9Hbj5iapnnEp6ZChu0FtuKe5RSOsQX7Qm7VpprDl2Q9Zyr/ry5zVPvFIQ9+ZJKSxUUZJwam&#13;
+eAKttTNsboOcgUKiXudU4h/KuCrxiilOuO3fStQ1XkXpJKC5wjUTnGldM9EKD1N8xnJqGiUy5OrZ&#13;
+JMcwfm4CfAPa+PpEg738XvTOSF84KkpOWqG8JLkYWPf6oKhAqxYCTE595fIfMHADawueiAjfPUWC&#13;
+yBvXe0LIYwYch38qSpq17tJCQAXi1cOVEyV4o2uqy2ZpUDJNOwN+kbXO2vNB0zhPdRkaSTriX3Ij&#13;
+ges0PA3v/rV3M2QJU1KmlUHKCmfkxEja8371/Q==&#13;
+&lt;/ds:SignatureValue&gt;&#13;
+&lt;ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;&#13;
+&lt;ds:X509Data&gt;&#13;
+&lt;ds:X509Certificate&gt;&#13;
+MIIJWzCCB0OgAwIBAgIINDyamaivM/4wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw&#13;
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv&#13;
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB&#13;
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X&#13;
+DTI0MDgwNzIwMzcwMFoXDTI1MDgwNzIwMzcwMFowgaoxCzAJBgNVBAYTAkVDMRwwGgYDVQQEDBNH&#13;
+QVJPRkFMTyBCVVNUQU1BTlRFMRcwFQYDVQQqDA5FRElTT04gR0FCUklFTDEZMBcGA1UEBRMQSURD&#13;
+RUMtMDgwNDYxMDgxNDErMCkGA1UEAwwiRURJU09OIEdBQlJJRUwgR0FST0ZBTE8gQlVTVEFNQU5U&#13;
+RTEcMBoGA1UEYQwTVElORUMtMDgwNDYxMDgxNDAwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#13;
+AQoCggEBAJz6cDTFbGkbACpRLb8La6fdg6ENmGCpi8/1oX3CacrSJqhiloRNREPOppIKvMTQqCI2&#13;
+k9WLOIbYbT96Bw7Km8p82RSgXGW8coXAZSnhrDLPOy60yjGgjgbIBrPPC/MY4AJ16+D33mQjV57z&#13;
+BymUuylesadJh9TlWF7CJA6PggBDTIXtTl4DAS5zgRO942xkacFVOtM01K6lS5KqNbbCm0tgbX0P&#13;
+M5U3tD3r92dD+IxwEEtBLOmYl+Dnk4TM38fIsHUuSE8SKq6vRW8czcQIfNdVRKCSg4oyu8nQvTOe&#13;
+4eThMXWw9dzrIAgq4/pe1NfBUemXpxU/3iTqr8g+v7wyKasCAwEAAaOCBHMwggRvMBsGCysGAQQB&#13;
+gvE2ZgMBBAwMCjA4MDQ2MTA4MTQwHgYLKwYBBAGC8TZmAwsEDwwNMDgwNDYxMDgxNDAwMTCB1wYI&#13;
+KwYBBQUHAQEEgcowgccwVQYIKwYBBQUHMAKGSWh0dHA6Ly93d3cudWFuYXRhY2EuY29tL3B1Ymxp&#13;
+Yy9kb3dubG9hZC90c3BfY2VydGlmaWNhdGVzL3N1Ym9yZGluYXRlMS5jcnQwNgYIKwYBBQUHMAGG&#13;
+Kmh0dHA6Ly9vY3NwMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzA2BggrBgEFBQcwAYYq&#13;
+aHR0cDovL29jc3AyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMB0GA1UdDgQWBBT9WUXu&#13;
+aU++o9ihslg9qcTlwP+YcjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH1X52BzzgdGqeKjaPDh&#13;
+EbJ0knP9MIGZBgNVHSAEgZEwgY4wgYsGDCsGAQQBgvE2ZgIBATB7MDcGCCsGAQUFBwIBFitodHRw&#13;
+czovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9kcGMtZWMvMEAGCCsGAQUFBwICMDQMMkNF&#13;
+UlRJRklDQURPIERFIFBFUlNPTkEgTkFUVVJBTCBPIEZJU0lDQSBFTiBBUkNISVZPMIGPBgNVHR8E&#13;
+gYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL2NybC9DQTJz&#13;
+dWJvcmRpbmFkYS5jcmwwQKA+oDyGOmh0dHA6Ly9jcmwyLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtp&#13;
+L2NybC9DQTJzdWJvcmRpbmFkYS5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUF&#13;
+BwMCBggrBgEFBQcDBDCCAakGA1UdEQSCAaAwggGcgRplZGlzb25nYXJvZmFsbzg4QGdtYWlsLmNv&#13;
+baAbBgsrBgEEAYLxNmYDAaAMDAowODA0NjEwODE0oB8GCysGAQQBgvE2ZgMCoBAMDkVESVNPTiBH&#13;
+QUJSSUVMoBkGCysGAQQBgvE2ZgMDoAoMCEdBUk9GQUxPoBsGCysGAQQBgvE2ZgMEoAwMCkJVU1RB&#13;
+TUFOVEWgUQYLKwYBBAGC8TZmAwegQgxAQ0FMTEU6IENBTExFIFggTk1FUk86IFNPTEFSIDMgSU5U&#13;
+RVJTRUNDSU46IENBTExFIDE1IE1BTlpBTkE6IDE2MKAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk3&#13;
+OTM0NzM4MaAaBgsrBgEEAYLxNmYDCaALDAlDT1RBQ0FDSEmgHgYLKwYBBAGC8TZmAwugDwwNMDgw&#13;
+NDYxMDgxNDAwMaATBgsrBgEEAYLxNmYDDKAEDAJFQ6ApBgsrBgEEAYLxNmYDMqAaDBhQRVJTT05B&#13;
+IE5BVFVSQUwgTyBGSVNJQ0GgGAYLKwYBBAGC8TZmAzOgCQwHQVJDSElWTzANBgkqhkiG9w0BAQsF&#13;
+AAOCAgEAvqhy2GlB6+baFUrFjKLuvl1GXFIZCl8Wit+AxFk9iJwJ0/EmGY+MCIcRl8HKJ3rUS73s&#13;
+F8oG/lW6KD32p6mnXRxmrmeqfL3+bsZ3ViLj4Xvw3uKtoSCtSlf0JA8QOAuUMZ0U3QV62aV3i6My&#13;
+2jsxI13qZm13NDLcuZ3E8UKQ2KMCmiP/FJ2hPinbZh0OWZsnQSi4rBAm0WNoL6KRtqQ1Tr4AudZB&#13;
+IuIKmFhJXtEIBoNk7j0W6Kb79rFfiSaFeYlGBZQZSzx2ryBvSXvdyDo6KdTCI9kEe0f7L2hUj5lg&#13;
+5SdYbm/lnFr4wCkPwoy/SEVqko/2/2ud9Kk1U5y0iP3UTqR/7aVeZlLUbFLGbN/QfyKSnFupynZ9&#13;
+Lacud7D810WXnmAwrdWMJhzFGWr5FM9E9wG5Pvbosl7mTMYhOrEPYg4KRmqzlczOCIc9k4fEk9vu&#13;
+a6B+by7rZmWIc4gzyKXEd/QrZrXnae7fFGxydGvi4LTNhunLnBBIwI6J8GJh6MTcQG2TBiMQn6Uq&#13;
+NbOxLH9gV5q3j/Wz6VICxeac+YaxHXMlBc6Otr92kVWbcwpCXb2jQzH2iUCo/a7+dGvzIMIuMfWE&#13;
+s4UfRM83KZzhFXZ/RqHtOZzohbletsFg8OU4JiSIc7RxjcL1GbCmm9hSEZzh1wZD9WBjbidRHbYn&#13;
+8r5pS88=&#13;
+&lt;/ds:X509Certificate&gt;&#13;
+&lt;/ds:X509Data&gt;&#13;
+&lt;/ds:KeyInfo&gt;&#13;
+&lt;ds:Object&gt;&lt;xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4"&gt;&lt;xades:SignedProperties Id="xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-signedprops"&gt;&lt;xades:SignedSignatureProperties&gt;&lt;xades:SigningTime&gt;2025-07-16T07:16:16.482-05:00&lt;/xades:SigningTime&gt;&lt;xades:SigningCertificate&gt;&lt;xades:Cert&gt;&lt;xades:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&lt;ds:DigestValue&gt;pVFZtSL9g+owkNq4JMuRLFY8cVkPJopBwOmRWYMLQbY=&lt;/ds:DigestValue&gt;&lt;/xades:CertDigest&gt;&lt;xades:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;3764053373325620222&lt;/ds:X509SerialNumber&gt;&lt;/xades:IssuerSerial&gt;&lt;/xades:Cert&gt;&lt;/xades:SigningCertificate&gt;&lt;/xades:SignedSignatureProperties&gt;&lt;xades:SignedDataObjectProperties&gt;&lt;xades:DataObjectFormat ObjectReference="#xmldsig-3892c193-48df-4d63-ab42-a4d91b37bca4-ref0"&gt;&lt;xades:Description&gt;FIRMA DIGITAL SRI&lt;/xades:Description&gt;&lt;xades:MimeType&gt;text/xml&lt;/xades:MimeType&gt;&lt;xades:Encoding&gt;UTF-8&lt;/xades:Encoding&gt;&lt;/xades:DataObjectFormat&gt;&lt;/xades:SignedDataObjectProperties&gt;&lt;/xades:SignedProperties&gt;&lt;/xades:QualifyingProperties&gt;&lt;/ds:Object&gt;&#13;
+&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse>
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube null.processResponse() from thread http-nio-9092-exec-6 with Packet: com.sun.xml.internal.ws.api.message.Packet@421c446b
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread leaving _doRun(): Thread[http-nio-9092-exec-6,5,main]
+2025-07-16 10:24:40 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOfflinefiber-1 completed
+2025-07-16 10:24:40 INFO  c.e.f.electronica.services.SriClient - Respuesta del SRI (objeto): no nula
+2025-07-16 10:24:41 INFO  c.e.f.electronica.services.SriClient - Contenido UNESCAPED del comprobante XML del CDATA: 
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>VENTAS DE PRODUCTO AGRICOLA</razonSocial>
+        <nombreComercial>EL AGRICULTOR</nombreComercial>
+        <ruc>0804610814001</ruc>
+        <claveAcceso>1507202501080461081400110010010000000060455387810</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi...
+2025-07-16 10:24:41 INFO  c.e.f.electronica.services.SriClient - XML de Comprobante (firmado, del CDATA, desescapado) guardado temporalmente en: C:\DocumentosApp\2025\07\1507202501080461081400110010010000000060455387810_temp.xml
+2025-07-16 10:24:41 INFO  c.e.f.electronica.services.SriClient - XML de Comprobante (firmado, del CDATA, desescapado) guardado en: C:\DocumentosApp\2025\07\FACTURA_001-001-000000006_15-07-2025_comprobante.xml
+2025-07-16 10:24:41 INFO  c.e.f.electronica.services.SriClient - XML de Autorización completo (con comprobante en CDATA) guardado en: C:\DocumentosApp\2025\07\FACTURA_001-001-000000006_15-07-2025_autorizacion.xml
+2025-07-16 10:24:41 ERROR org.apache.fop.apps.FOUserAgent - Image not found. URI: file:///C:/Users/DELL/Desktop/manana/codigo_barras.png. (No context info available)
+2025-07-16 10:24:41 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:24:41 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:24:41 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:24:41 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:24:41 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:24:41 WARN  org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2025-07-16 10:24:41 WARN  org.apache.fop.apps.FOUserAgent - In collapsing border model a table does not have padding (see http://www.w3.org/TR/REC-CSS2/tables.html#collapsing-borders), but a non-zero value for padding was found. The padding will be ignored. (No context info available)
+2025-07-16 10:24:42 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-07-16 10:24:42 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-07-16 10:24:42 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 10:24:42 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 7257 millipoints. (No context info available)
+2025-07-16 10:24:42 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 449 millipoints. (No context info available)
+2025-07-16 10:24:42 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 2 exceed the available area in the inline-progression direction by 2313 millipoints. (No context info available)
+2025-07-16 10:24:42 WARN  org.apache.fop.apps.FOUserAgent - The contents of fo:block line 1 exceed the available area in the inline-progression direction by 14319 millipoints. (No context info available)
+2025-07-16 10:24:42 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-07-16 10:24:42 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #2.
+2025-07-16 10:24:42 INFO  c.e.f.electronica.services.SriClient - ✅ PDF generado en: C:\DocumentosApp\2025\07\FACTURA_001-001-000000006_15-07-2025.pdf
+2025-07-16 10:26:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 10:26:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 10:26:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 15:33:24 INFO  c.e.f.e.FacturacionElectronicaApplication - Starting FacturacionElectronicaApplication using Java 1.8.0_421 on LAPTOP-J775M4JQ with PID 11304 (C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica\target\classes started by Maria Jose in C:\Users\Maria Jose\Desktop\Pos\2025\facturacion-electronica)
+2025-07-16 15:33:24 INFO  c.e.f.e.FacturacionElectronicaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:33:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 15:33:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2025-07-16 15:33:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+2025-07-16 15:33:26 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 15:33:26 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-07-16 15:33:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 15:33:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2498 ms
+2025-07-16 15:33:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 15:33:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 15:33:29 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 15:33:29 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-07-16 15:33:30 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-07-16 15:33:31 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-07-16 15:33:32 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 15:33:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 15:33:32 INFO  c.e.f.electronica.services.SriClient - SOAP logging activado para tráfico de envío y recepción.
+2025-07-16 15:33:33 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 15:33:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path ''
+2025-07-16 15:33:35 INFO  c.e.f.e.FacturacionElectronicaApplication - Started FacturacionElectronicaApplication in 11.492 seconds (JVM running for 13.639)
+2025-07-16 15:33:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 15:33:57 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 15:33:57 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-16 15:37:08 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m33s645ms714µs200ns).
+2025-07-16 15:37:58 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s211ms596µs399ns).
+2025-07-16 15:38:03 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - org.codehaus.stax2.internNsUris is true
+2025-07-16 15:38:03 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributesPerElement is 500
+2025-07-16 15:38:03 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxAttributeSize is 524.288
+2025-07-16 15:38:03 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxChildrenPerElement is 2.147.483.647
+2025-07-16 15:38:03 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementDepth is 500
+2025-07-16 15:38:03 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxElementCount is 2.147.483.647
+2025-07-16 15:38:03 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - com.ctc.wstx.maxCharacters is 9.223.372.036.854.775.807
+2025-07-16 15:38:03 DEBUG c.s.x.i.w.a.s.XMLStreamReaderFactory - XMLStreamReaderFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory$Woodstox@7e7fed4
+2025-07-16 15:38:11 DEBUG c.s.x.i.w.s.db.BindingContextFactory - Using SPI-determined databindng mode: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory
+2025-07-16 15:38:11 DEBUG c.s.x.i.w.model.AbstractSEIModelImpl - Created binding context: com.sun.xml.internal.ws.db.glassfish.JAXBRIContextWrapper
+2025-07-16 15:38:11 INFO  com.sun.xml.internal.ws.monitoring - Global client monitoring disabled. https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOffline will not be monitored
+2025-07-16 15:38:15 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 created
+2025-07-16 15:38:15 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 running with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@346c9504.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@28922438
+2025-07-16 15:38:16 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread entering _doRun(): Thread[http-nio-9092-exec-1,5,main]
+2025-07-16 15:38:16 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@4933f268.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@28922438
+2025-07-16 15:38:16 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@4e7119bd.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@28922438
+2025-07-16 15:38:16 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@704ee61e.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@28922438
+2025-07-16 15:38:16 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.transport.DeferredTransportPipe@3634a55b.processRequest() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@28922438
+2025-07-16 15:38:16 DEBUG c.s.x.i.w.a.s.XMLStreamWriterFactory - XMLStreamWriterFactory instance is = com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory$NoLock@1ff5eec5
+2025-07-16 15:38:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.protocol.soap.ClientMUTube@704ee61e.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@3d26cd73
+2025-07-16 15:38:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientMessageHandlerTube@4e7119bd.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@3d26cd73
+2025-07-16 15:38:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientSOAPHandlerTube@4933f268.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@3d26cd73
+2025-07-16 15:38:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube@346c9504.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@3d26cd73
+2025-07-16 15:38:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 After tube execution with NO ACTION or MSG ID and 'current' tube null.processResponse() from thread http-nio-9092-exec-1 with Packet: com.sun.xml.internal.ws.api.message.Packet@3d26cd73
+2025-07-16 15:38:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - Thread leaving _doRun(): Thread[http-nio-9092-exec-1,5,main]
+2025-07-16 15:38:17 DEBUG c.sun.xml.internal.ws.api.pipe.Fiber - engine-JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e: Stub for https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOfflinefiber-1 completed
+2025-07-16 15:39:16 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s32ms467µs901ns).
+2025-07-16 15:43:44 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 15:43:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 15:43:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
