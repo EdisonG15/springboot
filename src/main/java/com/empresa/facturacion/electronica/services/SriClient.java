@@ -40,6 +40,7 @@ import java.io.StringWriter;
 import java.nio.file.StandardCopyOption;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 import javax.xml.namespace.QName;
@@ -50,6 +51,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import ec.gob.sri.recepcion.RespuestaSolicitud; // Esta es la clase para la respuesta de recepción
 
@@ -515,8 +517,13 @@ public class SriClient implements ISriClient {
 
                     // Mensaje de respuesta consolidado
                     String mensajeResp = "AUTORIZADO";
-                    if (autorizacion.getMensajes() != null && !autorizacion.getMensajes().getAutorizacionMensaje().isEmpty()) {
-                        mensajeResp += ": " + autorizacion.getMensajes().getAutorizacionMensaje().stream()
+//                    if (autorizacion.getMensajes() != null && !autorizacion.getMensajes().getAutorizacionMensaje().isEmpty()) {
+//                        mensajeResp += ": " + autorizacion.getMensajes().getAutorizacionMensaje().stream()
+//                                .map(m -> m.getMensaje())
+//                                .collect(Collectors.joining("; "));
+//                    }
+                    if (autorizacion.getMensajes() != null && !autorizacion.getMensajes().getMensaje().isEmpty()) {
+                        mensajeResp += ": " + autorizacion.getMensajes().getMensaje().stream() // <-- AQUI EL CAMBIO
                                 .map(m -> m.getMensaje())
                                 .collect(Collectors.joining("; "));
                     }
@@ -550,8 +557,22 @@ public class SriClient implements ISriClient {
             StringBuilder mensajesError = new StringBuilder("Factura NO AUTORIZADA por el SRI. Estado: " + autorizacion.getEstado() + "\n");
             String errorCode = "SRI_NO_AUTH"; // Código de error por defecto
 
-            if (autorizacion.getMensajes() != null && !autorizacion.getMensajes().getAutorizacionMensaje().isEmpty()) {
-                for (ec.gob.sri.autorizacion.Mensaje msg : autorizacion.getMensajes().getAutorizacionMensaje()) {
+//            if (autorizacion.getMensajes() != null && !autorizacion.getMensajes().getAutorizacionMensaje().isEmpty()) {
+//                for (ec.gob.sri.autorizacion.Mensaje msg : autorizacion.getMensajes().getAutorizacionMensaje()) {
+//                    mensajesError.append("- TIPO: ").append(msg.getTipo())
+//                            .append(", IDENTIFICADOR: ").append(msg.getIdentificador())
+//                            .append(", MENSAJE: ").append(msg.getMensaje());
+//                    if (msg.getInformacionAdicional() != null && !msg.getInformacionAdicional().trim().isEmpty()) {
+//                        mensajesError.append(", INFO ADICIONAL: ").append(msg.getInformacionAdicional());
+//                    }
+//                    mensajesError.append("\n");
+//                    if (errorCode.equals("SRI_NO_AUTH") && msg.getIdentificador() != null) {
+//                        errorCode = msg.getIdentificador();
+//                    }
+//                }
+//            }
+            if (autorizacion.getMensajes() != null && !autorizacion.getMensajes().getMensaje().isEmpty()) {
+                for (ec.gob.sri.ws.autorizacion.Mensaje msg : autorizacion.getMensajes().getMensaje()) { // <-- AQUI EL CAMBIO
                     mensajesError.append("- TIPO: ").append(msg.getTipo())
                             .append(", IDENTIFICADOR: ").append(msg.getIdentificador())
                             .append(", MENSAJE: ").append(msg.getMensaje());
@@ -563,7 +584,9 @@ public class SriClient implements ISriClient {
                         errorCode = msg.getIdentificador();
                     }
                 }
-            } else {
+            }
+
+            else {
                 mensajesError.append("No se encontraron detalles adicionales de la no autorización.");
             }
 
