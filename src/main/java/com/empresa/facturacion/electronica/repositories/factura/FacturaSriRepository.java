@@ -99,7 +99,7 @@ public class FacturaSriRepository implements IFacturaSriRepository {
                     infoFactura.setImporteTotal(rs.getBigDecimal("total_venta"));
                     infoFactura.setMoneda("DOLAR");
                     List<Pago> pagos = new ArrayList<>();
-                    pagos.add(new Pago("20", rs.getBigDecimal("total_venta")));
+                    pagos.add(new Pago("forma_pago_codigo", rs.getBigDecimal("total_venta")));
                     infoFactura.setPagos(pagos);
 
                     factura.setInfoFactura(infoFactura);
